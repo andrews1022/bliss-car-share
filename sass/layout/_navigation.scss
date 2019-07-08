@@ -1,0 +1,16 @@
+.nav {
+    color: $color-white;
+
+    &-brand {
+        font-family: $text-brand;
+        font-size: $text-size-medium;
+        font-weight: $font-weight-light;
+    }
+
+    &-option {
+        color: $color-white !important;
+        font-size: $text-size-small;
+        font-weight: $font-weight-light;
+    }
+
+}

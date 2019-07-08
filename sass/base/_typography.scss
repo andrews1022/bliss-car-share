@@ -1,0 +1,38 @@
+// font-family: 'Great Vibes', cursive;
+// font-family: 'Roboto', sans-serif;
+
+body {
+    color: $color-dark-grey;
+    font-family: $text-main;
+    font-weight: $font-weight-normal;
+}
+
+.heading-primary {
+    font-size: $text-size-medium;
+    font-weight: $font-weight-light;
+    margin-bottom: $margin-bottom-small;
+}
+
+.heading-secondary {
+    @include textGradient;
+    
+    font-size: $text-size-medium;
+    font-weight: $font-weight-light;
+    margin-bottom: $margin-bottom-extra-small;
+    text-transform: uppercase;
+}
+
+.heading-tertiary {
+    font-size: $text-size-inbetween-sm;
+    font-weight: $font-weight-light;
+    margin-bottom: $margin-bottom-extra-small;
+}
+
+.heading-quaternary {
+    font-size: $text-size-extra-small;
+}
+
+.paragraph {
+    font-size: $text-size-extra-small;
+    font-weight: $font-weight-lighter;
+}

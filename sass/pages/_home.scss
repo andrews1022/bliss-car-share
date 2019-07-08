@@ -1,0 +1,31 @@
+.section-features {
+    background-color: $color-white;
+    padding: $section-padding;
+    text-align: $text-center;
+}
+
+.section-steps-img {
+    background-image: url('../../img/vancouver-night-aerial-crop.jpg');
+    min-height: 100%; 
+    height: 45vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-steps-content {
+    padding: $section-padding;
+    padding-bottom: 18rem;
+    text-align: $text-center;
+}
+
+.section-pricing {
+    padding: $section-padding;
+    text-align: $text-center;
+}
+
+.section-testimonials {
+    padding: $section-padding;
+    text-align: $text-center;
+}

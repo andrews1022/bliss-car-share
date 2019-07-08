@@ -1,0 +1,81 @@
+// BLACK & WHITE
+$color-white: #fff;
+$color-black: #000;
+
+// GREYS
+$color-light-grey-1: #f7f7f7;
+$color-light-grey-2: #eee;
+$color-light-grey-3: #dfdfdf;
+$color-medium-grey-1: #999;
+$color-medium-grey-2: #777;
+$color-dark-grey: #333;
+
+// PRIMARY COLORS
+$color-primary: #75cac3;
+$color-primary-light: #d7f7f5;
+$color-primary-dark: #2a6171;
+
+// SECONDARY COLOURS
+$color-secondary-light: #f34573;
+$color-secondary-dark: #ce2754;
+
+// MARGIN CENTERING
+$margin-center: 0 auto;
+
+// BORDER RADIUS
+$border-radius-small: 3px;
+$border-radius-medium: 5px;
+
+// TEXT
+$text-brand: 'Lobster', cursive;
+$text-main: 'Roboto', sans-serif;
+
+$text-center: center;
+$text-uppercase: uppercase;
+$text-lowercase: lowercase;
+
+$text-size-extra-small: 1.5rem;
+$text-size-small: 2rem;
+$text-size-inbetween-sm: 3rem;
+$text-size-medium: 4rem;
+$text-size-inbetween-ml: 5rem;
+$text-size-large: 6rem;
+$text-size-inbetween-lxl: 7rem;
+$text-size-huge: 8rem;
+
+$font-weight-light: 100;
+$font-weight-lighter: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+$font-weight-bold: 900;
+
+// WRAPPER
+$wrapper: 75%;
+$wrapper-wide: 90%;
+
+// MARGIN BOTTOM
+$margin-bottom-extra-small: 1rem;
+$margin-bottom-small: 1.5rem;
+$margin-bottom-medium: 3rem;
+$margin-bottom-large: 5rem;
+$margin-bottom-inbetween-lh: 6rem;
+$margin-bottom-huge: 7rem;
+
+// MARGIN TOP
+$margin-top-extra-small: 1rem;
+$margin-top-small: 1.5rem;
+$margin-top-medium: 3rem;
+$margin-top-large: 5rem;
+$margin-top-huge: 7rem;
+
+// PADDING
+$section-padding: 5rem 2.5rem;
+$price-card-padding: 2rem;
+
+// TRANSITIONS:
+$standard-transition: all .25s;
+
+// DROP SHADOW
+$box-shadow-light: 0 1rem 3rem rgba($color-black, .2);
+$box-shadow-medium: 0 1rem 3rem rgba($color-black, .5);
+$box-shadow-dark: 0 1rem 3rem rgba($color-black, 1);

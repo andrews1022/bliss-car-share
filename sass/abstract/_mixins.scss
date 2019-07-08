@@ -1,0 +1,26 @@
+// Clearfix
+@mixin clearfix {
+    &::after{
+        clear: both; 
+        content: "";
+        display: table;
+    }
+}
+
+// Absolute Position Centering an element
+@mixin absoluteCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+// Gradient Text:
+@mixin textGradient {
+    background-image: linear-gradient(to right, darken($color-primary, 15), $color-primary-dark);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+

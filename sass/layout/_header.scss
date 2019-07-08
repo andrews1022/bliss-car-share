@@ -1,0 +1,17 @@
+.header {
+    background-image: linear-gradient(rgba($color-black, .6)), url('../img/ferrari-parked.jpg');
+    background-position: top;
+    background-size: cover;
+    color: $color-white;
+    height: 100vh;
+    position: relative;
+    
+    &-text-box {
+        left: 50%;
+        position: absolute;
+        text-align: $text-center;
+        top: 60%;
+        transform: translate(-50%, -50%);
+        width: $wrapper-wide;
+    }
+}

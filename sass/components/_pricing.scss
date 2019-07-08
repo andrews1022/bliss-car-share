@@ -1,0 +1,112 @@
+.pricing-card {
+    box-shadow: $box-shadow-light;
+    color: $color-white;
+    margin: $margin-center;
+    margin-bottom: $margin-bottom-inbetween-lh;
+    padding: 0;
+    position: relative;
+    width: $wrapper-wide;
+
+    &-image {
+        position: relative;
+        
+
+        &-text-box {
+            @include absoluteCenter;
+            background-color: rgba($color-black, 0.6);
+            width: 100%;
+        }
+
+        &-1 {
+            border-radius: 7px 7px 0 0;
+        }
+    }
+
+    &-content {
+        color: $color-primary-dark;
+        padding: 1.5rem 0;
+    }
+
+    &-membership-header {
+        font-size: $text-size-medium;
+        font-weight: $font-weight-light;
+        padding-top: 1.5rem;
+        margin-bottom: $margin-bottom-extra-small;
+        text-transform: uppercase;
+    }
+
+    &-price-header {
+        font-size: $text-size-large * .90;
+        font-weight: $font-weight-light;
+    }
+
+    &-list {
+        font-weight: $font-weight-lighter;
+        list-style: none;
+        margin-top: $margin-top-small;
+
+        &-item {
+            font-size: $text-size-small;
+            &:not(:last-child) {
+                margin-bottom: 2rem;
+            }
+
+            &-faded {
+               color: lighten($color-primary-dark, 45);
+            }
+        }
+    }
+}
+
+// .pricing-header {
+//     color: $color-white;
+//     font-size: $text-size-large;
+//     font-weight: $font-weight-light;
+//     margin-bottom: $margin-bottom-extra-small;
+//     text-transform: uppercase;
+// }
+
+// .pricing {
+
+//     &-card {
+//         border: 2px solid rebeccapurple;
+//         background-color: rgba(102, 51, 153, 0.25);
+
+//         &-image {
+//             background-position: center;
+//             background-repeat: no-repeat;
+//             background-size: cover;
+//             height: 100%;
+//             opacity: .5;
+//             position: relative;
+
+//             &-1 {
+//                 background-image: linear-gradient(rgba($color-black, .5), rgba($color-black, .5)), url('../../img/price-card-1-tesla-crop.jpg');
+//             }
+
+//             &-2 {
+//                 background-image: linear-gradient(rgba($color-black, .5), rgba($color-black, .5)), url('../../img/price-card-2-audi-crop.jpg');
+//             }
+
+//             &-3 {
+//                 background-image: linear-gradient(rgba($color-black, .5), rgba($color-black, .5)), url('../../img/price-card-3-rolls-royce-crop.jpg');
+//             }
+
+//             &-text-box {
+//                 @include absoluteCenter;
+//             }
+
+//         }
+
+//         &-content {
+//             // background-color: rgba(0, 0, 255, 0.301);
+//             padding: 1rem 0;
+//         }
+
+//         &-list {
+//             list-style: none;
+//         }
+
+
+//     }
+// }

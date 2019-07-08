@@ -1,0 +1,61 @@
+.button {
+    border-radius: $border-radius-medium;
+    box-shadow: $box-shadow-medium;
+    color: $color-white;
+    display: inline-block;
+    font-size: $text-size-small;
+    font-weight: $font-weight-lighter;
+    margin: 1rem;
+    padding: 1.25rem 3.5rem;
+    
+    &-fill:link,
+    &-fill:visited {
+        background-color: $color-primary;
+        border: 2px solid transparent;
+        transition: $standard-transition;
+    }
+
+    &-fill:hover,
+    &-fill:active,
+    &-fill:focus {
+        background-color: darken($color-primary, 15);
+        color: $color-white;
+        text-decoration: none;
+    }
+
+    &-outline:link,
+    &-outline:visited {
+        border: 2px solid $color-primary;
+        transition: $standard-transition;
+    }
+
+    &-outline:hover,
+    &-outline:active,
+    &-outline:focus {
+        background-color: darken($color-primary, 15);
+        border: 2px solid darken($color-primary, 15);
+        color: $color-white;
+        text-decoration: none;
+    }
+}
+
+.button-2 {
+
+    &:link,
+    &:visited {
+        border-bottom: 2px solid $color-primary;
+        border-radius: $border-radius-medium;
+        color: $color-dark-grey;
+        margin: 1rem;
+        padding: .75rem 3rem;
+        transition: $standard-transition;
+    }
+
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: $color-primary;
+        color: $color-white;
+        text-decoration: none;
+    }
+}

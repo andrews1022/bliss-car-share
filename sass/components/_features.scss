@@ -1,0 +1,23 @@
+.features {
+
+    &-card {
+        // background-color: red;
+        border-radius: $border-radius-medium;
+        margin: $margin-center;
+        margin-bottom: $margin-bottom-small;
+        padding: 2rem;
+        transition: $standard-transition;
+        width: $wrapper;
+
+        &:hover {
+            box-shadow: $box-shadow-light;
+            transform: translateY(-3px);
+        }
+    }
+
+    &-icon {
+        color: $color-primary-dark;
+        font-size: $text-size-inbetween-ml;
+    }
+
+}
