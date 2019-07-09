@@ -165,7 +165,7 @@ body {
 
 .contact {
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.7))), url("../../img/vancouver-downtown-sunny.jpg");
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 100%), url("../../img/vancouver-downtown-sunny.jpg");
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 100%), url("../img/vancouver-downtown-sunny.jpg");
   background-size: cover;
   background-position: top left;
   height: 60rem;
