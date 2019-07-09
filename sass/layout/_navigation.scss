@@ -1,16 +1,97 @@
 .nav {
     color: $color-white;
+    position: relative;
+
+    @include respond(tab-port) {
+        padding: 0 2rem;
+    }
+
+    @include respond(tab-land) {
+        padding: 0 2.5rem;
+    }
+
+    @include respond(laptop) {
+        padding: 0 4.5rem;
+    }
+
+    @include respond(desktop) {
+        padding: 1rem 7rem;
+    }
+
+    @include respond(desktop-lg) {
+        padding: 2rem 8rem;  
+    }
+
+    &-list {
+        padding-top: 1.1rem;
+
+        @include respond(desktop) {
+            padding-top: 1.35rem;  
+        }
+    }
 
     &-brand {
         font-family: $text-brand;
         font-size: $text-size-medium;
         font-weight: $font-weight-light;
+
+        @include respond(tab-port) {
+            font-size: 5rem;
+        }
+
+        @include respond(tab-land) {
+            font-size: 4.35rem;
+        }
+
+        @include respond(laptop) {
+            font-size: 5rem;
+        }
+
+        @include respond(desktop) {
+            font-size: 6rem;
+        }
+
+        @include respond(desktop-lg) {
+            font-size: 7rem;
+        }
     }
 
-    &-option {
-        color: $color-white !important;
+    &-option:link,
+    &-option:visited {
+        color: $color-light-grey-2 !important;
         font-size: $text-size-small;
         font-weight: $font-weight-light;
+        transition: $standard-transition;
+
+        @include respond(tab-land) {
+            font-size: 1.85rem;
+            margin-left: .5rem;
+        }
+
+        @include respond(laptop) {
+            margin-left: .75rem;
+        }
+
+        @include respond(desktop){
+            font-size: 2.4rem; 
+            margin-left: 1rem;
+        }
+
+        @include respond(desktop-lg){
+            font-size: 2.8rem; 
+            margin-left: 1.25rem;
+        }
+
+        @include respond(desktop-4k){
+            font-size: 3.2rem; 
+            margin-left: 1.5rem;
+        }
+
     }
 
+    &-option:hover,
+    &-option:active,
+    &-option:focus {
+        color: $color-primary !important;
+    }
 }

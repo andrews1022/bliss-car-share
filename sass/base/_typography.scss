@@ -11,6 +11,22 @@ body {
     font-size: $text-size-medium;
     font-weight: $font-weight-light;
     margin-bottom: $margin-bottom-small;
+
+    @include respond(laptop) {
+        font-size: 5.5rem;
+    }
+
+    @include respond(desktop) {
+        font-size: 6rem;
+    }
+
+    @include respond(desktop-lg) {
+        font-size: 7rem;
+    }
+
+    @include respond(desktop-lg) {
+        font-size: 9rem;
+    }
 }
 
 .heading-secondary {
@@ -21,12 +37,38 @@ body {
     margin-bottom: $margin-bottom-extra-small;
     text-transform: uppercase;
 
+    @include respond(tab-port) {
+        font-size: 5rem;
+    }
+
+    @include respond(desktop-lg) {
+        font-size: 6rem;
+    }
+
+    @include respond(desktop-4k) {
+        font-size: 7.5rem;
+    }
+
     &-white {
         color: $color-white;
+
+        @include respond(tab-port) {
+            font-size: 5rem;
+            margin-bottom: 3rem;
+        }
+    
+        @include respond(desktop-lg) {
+            font-size: 6rem;
+        }
+    
+        @include respond(desktop-4k) {
+            font-size: 7.5rem;
+        }
     }
 }
 
 .heading-tertiary {
+    
     font-size: $text-size-inbetween-sm;
     font-weight: $font-weight-light;
     margin-bottom: $margin-bottom-extra-small;
@@ -41,10 +83,28 @@ body {
         font-size: 3.25rem;
         text-align: center;
     }
+
+    @include respond(tab-land){
+        font-size: 2.5rem;
+    }
+
+    @include respond(tab-land){
+        font-size: 2.5rem;
+    }
+
+    @include respond(desktop-4k){
+        font-size: 3rem;
+    }
 }
 
 .heading-quaternary {
+    @include textGradient;
+
     font-size: $text-size-extra-small;
+
+    @include respond(desktop-4k){
+        font-size: 2.5rem;
+    }
 }
 
 .paragraph {
@@ -53,5 +113,17 @@ body {
 
     &-footer {
         color: $color-light-grey-4;
+    }
+
+    @include respond(tab-land){
+        font-size: 1.25rem;
+    }
+
+    @include respond(desktop-lg) {
+        font-size: 1.5rem;
+    }
+
+    @include respond(desktop-4k) {
+        font-size: 1.7rem;
     }
 }

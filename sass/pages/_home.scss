@@ -2,6 +2,10 @@
     background-color: $color-white;
     padding: $section-padding;
     text-align: $text-center;
+
+    @include respond(tab-port) {
+        padding: 5rem;
+    }
 }
 
 .section-steps-img {
@@ -16,8 +20,11 @@
 
 .section-steps-content {
     padding: $section-padding;
-    padding-bottom: 18rem;
     text-align: $text-center;
+
+    @include respond(laptop) {
+        padding: 5rem 4rem;
+    }
 }
 
 .section-pricing {
@@ -27,6 +34,14 @@
 
     &-header {
         color: $color-white;
+    }
+
+    @include respond(tab-land) {
+        padding: 5rem 4rem 2rem 4rem;
+    }
+
+    @include respond(laptop) {
+        padding: 5rem 8rem 2rem 8rem;
     }
 }
 

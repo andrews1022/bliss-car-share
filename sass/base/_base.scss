@@ -10,13 +10,61 @@
     padding: 0;
 }
 
+// tab-port
+// tab-land
+// laptop
+// desktop
+// desktop-lg
+// desktop-4k
+
 html {
     box-sizing: border-box;
-    font-size: 62.5%;   /* Equivalent to 10px */   
+    font-size: 62.5%;   // Equivalent to 10px  
+    
+    // min-width 768px
+    // 1rem = 11px --> 11/16 = 68.75%
+    @include respond(tab-port) { 
+        font-size: 68.75%;
+    }
+
+    // min-width 1024px
+    // 1rem = 12px --> 12/16 = 75%
+    @include respond(tab-land) {
+        font-size: 75%;
+    }
+
+    // min-width 1366px
+    // 1rem = 13px --> 13/16 = 81.25%
+    @include respond(laptop) {
+        font-size: 81.25%;
+    }
+
+    // min-width 1920px
+    // 1rem = 14px --> 14/16 = 87.5%
+    @include respond(desktop) {
+        font-size: 87.5%;
+    }
+
+    // min-width 2560px
+    // 1rem = 16px --> 16/16 = 100%
+    @include respond(desktop-lg) {
+        font-size: 100%;
+    }
+
+    // min-width 3840px
+    // 1rem = 18px --> 18/16 = 100%
+    @include respond(desktop-4k) {
+        font-size: 112.5%;
+    }
 }
 
 img {
     display: block;
     height: auto;
     max-width: 100%;
+}
+
+::selection {
+    background-color: $color-primary;
+    color: $color-white;
 }

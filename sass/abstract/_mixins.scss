@@ -1,7 +1,7 @@
 // Clearfix
 @mixin clearfix {
-    &::after{
-        clear: both; 
+    &::after {
+        clear: both;
         content: "";
         display: table;
     }
@@ -10,8 +10,8 @@
 // Absolute Position Centering an element
 @mixin absoluteCenter {
     position: absolute;
-    top: 50%;
     left: 50%;
+    top: 50%;
     transform: translate(-50%, -50%);
 }
 
@@ -24,3 +24,65 @@
     display: inline-block;
 }
 
+
+
+// MEDIA QUERY MANAGER
+
+/*
+By default this site optimized for min-width 360px.
+From here, we just scale upwards/re-align elements as need be
+
+$breakpoint argument choices:
+- tab-port (tablet-portrait)
+- tab-land (tablet-landscape)
+- laptop (standard laptop screen res)
+- desktop (standard desktop screen res)
+- desktop-lg (1440p res desktop)
+- desktop-4k (4k res desktop)
+
+min-width 768px == tab-port
+min-width 1024px == tab-land
+min-width 1366px == laptop
+min-width 1920px == desktop
+min-width 2560px == desktop-lg
+min-width 3840px == desktop-4k
+
+1em = 16px (16px is default browser font-size)
+*/
+@mixin respond($breakpoint) {
+    @if $breakpoint == tab-port {
+        @media only screen and (min-width: 48em) {
+            @content;
+        }
+    }
+
+    @if $breakpoint == tab-land {
+        @media only screen and (min-width: 64em) {
+            @content;
+        }
+    }
+
+    @if $breakpoint == laptop {
+        @media only screen and (min-width: 85.375em) {
+            @content;
+        }
+    }
+
+    @if $breakpoint == desktop {
+        @media only screen and (min-width: 120em) {
+            @content;
+        }
+    }
+
+    @if $breakpoint == desktop-lg {
+        @media only screen and (min-width: 160em) {
+            @content;
+        }
+    }
+
+    @if $breakpoint == desktop-4k {
+        @media only screen and (min-width: 240em) {
+            @content;
+        }
+    }
+}

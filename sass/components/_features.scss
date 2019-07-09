@@ -1,5 +1,9 @@
 .features {
 
+    &-row {
+        padding: 0 2rem;
+    }
+
     &-card {
         // background-color: red;
         border-radius: $border-radius-medium;
@@ -13,6 +17,8 @@
             box-shadow: $box-shadow-light;
             transform: translateY(-3px);
         }
+
+        @include respond(laptop){}
     }
 
     &-icon {

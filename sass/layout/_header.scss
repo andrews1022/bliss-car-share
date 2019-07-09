@@ -13,5 +13,9 @@
         top: 60%;
         transform: translate(-50%, -50%);
         width: $wrapper-wide;
+
+        @include respond(tab-land) {
+            top: 50%;
+        }
     }
 }

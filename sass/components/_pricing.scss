@@ -6,7 +6,21 @@
     margin-bottom: $margin-bottom-inbetween-lh;
     padding: 0;
     position: relative;
+    transition: $standard-transition;
     width: $wrapper-wide;
+
+    &:hover {
+        transform: scale(0.93) translateY(-3px);
+    }
+
+    @include respond(tab-port) {
+        width: 60%;
+    }
+
+    @include respond(tab-land) {
+        transform: scale(.9);
+        margin-bottom: 2rem;
+    }
 
     &-image {
         position: relative;
@@ -35,11 +49,23 @@
         padding-top: 1.5rem;
         margin-bottom: $margin-bottom-extra-small;
         text-transform: uppercase;
+
+        @include respond(tab-land) {
+            font-size: 3.25rem
+        }
+
+        @include respond(desktop) {
+            font-size: 4.75rem
+        }
     }
 
     &-price-header {
         font-size: $text-size-large * .90;
         font-weight: $font-weight-light;
+
+        @include respond(desktop-lg) {
+            font-size: 6.5rem;
+        }
     }
 
     &-list {
@@ -50,6 +76,10 @@
         &-item {
             font-size: $text-size-small;
 
+            @include respond(desktop-lg) {
+                font-size: 2.5rem;
+            }
+
             &:not(:last-child) {
                 margin-bottom: 2rem;
             }
@@ -57,6 +87,24 @@
             &-faded {
                 color: lighten($color-primary-dark, 45);
             }
+        }
+    }
+
+    &-span {
+        @include respond(laptop) {
+            font-size: 1.5rem;
+        }
+
+        @include respond(desktop) {
+            font-size: 1.75rem;
+        }
+
+        @include respond(desktop-lg) {
+            font-size: 2rem;
+        }
+
+        @include respond(desktop-4k) {
+            font-size: 2.25rem;
         }
     }
 }
