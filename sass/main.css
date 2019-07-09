@@ -47,10 +47,25 @@ body {
   text-transform: uppercase;
 }
 
+.heading-secondary-white {
+  color: #fff;
+}
+
 .heading-tertiary {
   font-size: 3rem;
   font-weight: 100;
   margin-bottom: 1rem;
+}
+
+.heading-tertiary-contact {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.heading-tertiary-footer {
+  color: #d1d1d1;
+  font-size: 3.25rem;
+  text-align: center;
 }
 
 .heading-quaternary {
@@ -62,8 +77,29 @@ body {
   font-weight: 300;
 }
 
+.paragraph-footer {
+  color: #d1d1d1;
+}
+
 .u-text-center {
   text-align: center;
+}
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -10;
+  opacity: .2;
+}
+
+.bg-video-content {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
 }
 
 .button {
@@ -76,32 +112,39 @@ body {
   font-weight: 300;
   margin: 1rem;
   padding: 1.25rem 3.5rem;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
 }
 
 .button-fill:link, .button-fill:visited {
   background-color: #75cac3;
   border: 2px solid transparent;
-  -webkit-transition: all 0.25s;
-  transition: all 0.25s;
 }
 
 .button-fill:hover, .button-fill:active, .button-fill:focus {
   background-color: #43afa6;
   color: #fff;
   text-decoration: none;
+  -webkit-transform: translateY(-3px) scale(1.03);
+          transform: translateY(-3px) scale(1.03);
 }
 
 .button-outline:link, .button-outline:visited {
   border: 2px solid #75cac3;
-  -webkit-transition: all 0.25s;
-  transition: all 0.25s;
 }
 
 .button-outline:hover, .button-outline:active, .button-outline:focus {
-  background-color: #43afa6;
-  border: 2px solid #43afa6;
+  background-color: #50bcb3;
+  border: 2px solid #50bcb3;
   color: #fff;
   text-decoration: none;
+  -webkit-transform: translateY(-3px) scale(1.03);
+          transform: translateY(-3px) scale(1.03);
+}
+
+.button-2 {
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
 }
 
 .button-2:link, .button-2:visited {
@@ -110,14 +153,30 @@ body {
   color: #333;
   margin: 1rem;
   padding: .75rem 3rem;
-  -webkit-transition: all 0.25s;
-  transition: all 0.25s;
 }
 
 .button-2:hover, .button-2:active, .button-2:focus {
   background-color: #75cac3;
   color: #fff;
   text-decoration: none;
+  -webkit-transform: translateY(-3px) scale(1.03);
+          transform: translateY(-3px) scale(1.03);
+}
+
+.contact {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.7))), url("../../img/vancouver-downtown-sunny.jpg");
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 100%), url("../../img/vancouver-downtown-sunny.jpg");
+  background-size: cover;
+  background-position: top left;
+  height: 60rem;
+  -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.contact-form {
+  padding: .5rem;
+  margin: 0 auto;
 }
 
 .features-card {
@@ -142,7 +201,99 @@ body {
   font-size: 5rem;
 }
 
+.form {
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.form-group:not(:last-child) {
+  margin-bottom: 2.5rem;
+}
+
+.form-group-button {
+  text-align: center;
+}
+
+.form-container {
+  padding: 1rem 2.5rem;
+}
+
+.form-input {
+  border: none;
+  border-bottom: 3px solid transparent;
+  border-radius: 3px;
+  color: #333;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.15rem;
+  padding: .75rem 1rem;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  width: 100%;
+}
+
+.form-input:focus {
+  border-bottom: 3px solid #75cac3;
+  -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+.form-input:focus:invalid {
+  border-bottom: 3px solid #ce2754;
+}
+
+.form-ta {
+  border: none;
+  border-bottom: 3px solid transparent;
+  border-radius: 3px;
+  color: #333;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.15rem;
+  padding: .75rem 1rem;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  width: 100%;
+}
+
+.form-ta:focus {
+  border: 3px solid #75cac3;
+  -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+.form-label {
+  display: block;
+  color: #333;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.form-button {
+  background-color: #75cac3;
+  border: none;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 300;
+  padding: 1rem 2.5rem;
+  text-align: center;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+.form-button:hover {
+  background-color: #50bcb3;
+  -webkit-transform: translateY(-3px) scale(1.03);
+          transform: translateY(-3px) scale(1.03);
+}
+
 .pricing-card {
+  background-color: transparent;
   -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
           box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
   color: #fff;
@@ -172,6 +323,7 @@ body {
 }
 
 .pricing-card-content {
+  background-color: white;
   color: #2a6171;
   padding: 1.5rem 0;
 }
@@ -251,6 +403,116 @@ body {
   margin: 0 auto;
 }
 
+.testimonial {
+  background-attachment: local;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 113% auto;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
+  height: 55vh;
+  margin-bottom: 4.5rem;
+  position: relative;
+}
+
+.testimonial-container {
+  margin: 0 auto;
+}
+
+.testimonial-1 {
+  background-image: linear-gradient(210deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 33%, transparent 33%), url("../img/testimonial-image-woman-in-office.jpg");
+  margin-top: 2rem;
+}
+
+.testimonial-2 {
+  background-image: linear-gradient(150deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 36%, transparent 36%), url("../img/testimonial-image-man-in-cafe.jpg");
+}
+
+.testimonial-text-box {
+  max-width: 33ch;
+  position: absolute;
+  text-overflow: ellipsis;
+  white-space: wrap;
+}
+
+.testimonial-text-box-1 {
+  padding: 1.25rem 1.25rem 0 0;
+  right: 0;
+  text-align: right;
+  top: 0;
+}
+
+.testimonial-text-box-2 {
+  max-width: 35ch;
+  left: 0;
+  padding: 1.25rem 0 0 1.25rem;
+  text-align: left;
+  top: 0;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 5rem 2.5rem;
+  text-align: center;
+}
+
+.footer-navigation {
+  margin-bottom: 5rem;
+}
+
+.footer-list {
+  font-weight: 100;
+  list-style: none;
+  margin-bottom: 0;
+}
+
+.footer-item:not(:last-child) {
+  margin-bottom: .75rem;
+}
+
+.footer-icon {
+  font-size: 2.1rem;
+  margin-right: 1rem;
+}
+
+.footer-icon-link:link, .footer-icon-link:visited {
+  color: #d1d1d1;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+.footer-icon-link:hover,
+.footer-icon-link:active .footer-icon-link:focus {
+  color: #75cac3;
+  text-decoration: none;
+}
+
+.footer-link:link, .footer-link:visited {
+  color: #999;
+  font-size: 2.1rem;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+.footer-link:hover, .footer-link:active, .footer-link:focus {
+  color: #eee;
+  text-decoration: none;
+}
+
+.footer-name-link:link, .footer-name-link:visited {
+  color: #d1d1d1;
+  font-size: 1.5rem;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+.footer-name-link:hover, .footer-name-link:active, .footer-name-link:focus {
+  color: #75cac3;
+  text-decoration: none;
+}
+
 .header {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6))), url("../img/ferrari-parked.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.6)), url("../img/ferrari-parked.jpg");
@@ -294,7 +556,7 @@ body {
 }
 
 .section-steps-img {
-  background-image: url("../../img/vancouver-night-aerial-crop.jpg");
+  background-image: url("../img/vancouver-night-aerial-crop.jpg");
   min-height: 100%;
   height: 45vh;
   background-attachment: fixed;
@@ -310,11 +572,26 @@ body {
 }
 
 .section-pricing {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#75cac3), to(#2a6171));
+  background-image: linear-gradient(to right bottom, #75cac3, #2a6171);
   padding: 5rem 2.5rem;
   text-align: center;
 }
 
+.section-pricing-header {
+  color: #fff;
+}
+
 .section-testimonials {
+  background-color: #fff;
+  padding: 5rem 2.5rem;
+  position: relative;
+  text-align: center;
+}
+
+.section-contact {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#75cac3), to(#2a6171));
+  background-image: linear-gradient(to right bottom, #75cac3, #2a6171);
   padding: 5rem 2.5rem;
   text-align: center;
 }

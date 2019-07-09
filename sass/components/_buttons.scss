@@ -7,12 +7,13 @@
     font-weight: $font-weight-lighter;
     margin: 1rem;
     padding: 1.25rem 3.5rem;
+    transition: $standard-transition;
     
     &-fill:link,
     &-fill:visited {
         background-color: $color-primary;
         border: 2px solid transparent;
-        transition: $standard-transition;
+        
     }
 
     &-fill:hover,
@@ -21,25 +22,27 @@
         background-color: darken($color-primary, 15);
         color: $color-white;
         text-decoration: none;
+        transform: translateY(-3px) scale(1.03);
     }
 
     &-outline:link,
     &-outline:visited {
         border: 2px solid $color-primary;
-        transition: $standard-transition;
     }
 
     &-outline:hover,
     &-outline:active,
     &-outline:focus {
-        background-color: darken($color-primary, 15);
-        border: 2px solid darken($color-primary, 15);
+        background-color: darken($color-primary, 10);
+        border: 2px solid darken($color-primary, 10);
         color: $color-white;
         text-decoration: none;
+        transform: translateY(-3px) scale(1.03);
     }
 }
 
 .button-2 {
+    transition: $standard-transition;
 
     &:link,
     &:visited {
@@ -48,7 +51,6 @@
         color: $color-dark-grey;
         margin: 1rem;
         padding: .75rem 3rem;
-        transition: $standard-transition;
     }
 
     &:hover,
@@ -57,5 +59,6 @@
         background-color: $color-primary;
         color: $color-white;
         text-decoration: none;
+        transform: translateY(-3px) scale(1.03);
     }
 }

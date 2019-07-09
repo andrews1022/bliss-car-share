@@ -1,0 +1,65 @@
+.footer {
+    background-color: $color-dark-grey;
+    color: $color-white;
+    padding: $section-padding;
+    text-align: $text-center;
+
+    &-navigation {
+        margin-bottom: 5rem;
+    }
+
+    &-list {
+        font-weight: $font-weight-light;
+        list-style: none;
+        margin-bottom: 0;
+    }
+
+    &-item:not(:last-child) {
+        margin-bottom: .75rem;
+    }
+
+    &-icon {
+        font-size: 2.1rem;
+        margin-right: 1rem;
+
+        &-link:link,
+        &-link:visited {
+            color: $color-light-grey-4;
+            transition: $standard-transition;
+        }
+
+        &-link:hover,
+        &-link:active &-link:focus {
+            color: $color-primary;
+            text-decoration: none;
+        }
+    }
+
+    &-link:link,
+    &-link:visited {
+        color: $color-medium-grey-1;
+        font-size: 2.1rem;
+        transition: $standard-transition;
+    }
+
+    &-link:hover,
+    &-link:active,
+    &-link:focus {
+        color: $color-light-grey-2;
+        text-decoration: none;
+    }
+
+    &-name-link:link,
+    &-name-link:visited {
+        color: $color-light-grey-4;
+        font-size: $text-size-extra-small;
+        transition: $standard-transition;  
+    }
+
+    &-name-link:hover,
+    &-name-link:active,
+    &-name-link:focus {
+        color: $color-primary;
+        text-decoration: none;
+    }
+}

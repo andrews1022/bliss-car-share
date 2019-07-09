@@ -1,4 +1,4 @@
-// font-family: 'Great Vibes', cursive;
+// font-family: 'Lobster', cursive;
 // font-family: 'Roboto', sans-serif;
 
 body {
@@ -20,12 +20,27 @@ body {
     font-weight: $font-weight-light;
     margin-bottom: $margin-bottom-extra-small;
     text-transform: uppercase;
+
+    &-white {
+        color: $color-white;
+    }
 }
 
 .heading-tertiary {
     font-size: $text-size-inbetween-sm;
     font-weight: $font-weight-light;
     margin-bottom: $margin-bottom-extra-small;
+
+    &-contact {
+        font-size: $text-size-medium;
+        text-align: $text-center;
+    }
+
+    &-footer {
+        color: $color-light-grey-4;
+        font-size: 3.25rem;
+        text-align: center;
+    }
 }
 
 .heading-quaternary {
@@ -35,4 +50,8 @@ body {
 .paragraph {
     font-size: $text-size-extra-small;
     font-weight: $font-weight-lighter;
+
+    &-footer {
+        color: $color-light-grey-4;
+    }
 }

@@ -1,0 +1,16 @@
+.contact {
+    background-image:   linear-gradient(to right,
+                        rgba($color-white, .7) 0%,
+                        rgba($color-white, .7) 100%), 
+                        url('../img/vancouver-downtown-sunny.jpg');
+    background-size: cover;
+    background-position: top left;
+    height: 60rem;
+    box-shadow: $box-shadow-light;
+    border-radius: $border-radius-medium;
+
+    &-form {
+        padding: .5rem;
+        margin: 0 auto;
+    }
+}

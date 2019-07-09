@@ -1,0 +1,84 @@
+.form {
+    margin-top: 2rem;
+    text-align: left;
+
+    &-group:not(:last-child) {
+        margin-bottom: $margin-bottom-inbetween-sm;
+    }
+
+    &-group-button {
+        text-align: center;
+    }
+
+    &-container {
+        padding: 1rem 2.5rem;
+    }
+
+    &-input {
+        border: none;
+        border-bottom: 3px solid transparent;
+        border-radius: $border-radius-small;
+        color: $color-dark-grey;
+        display: block;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.15rem;
+        padding: .75rem 1rem;
+        transition: $standard-transition;
+        width: 100%;
+
+        &:focus {
+            border-bottom: 3px solid $color-primary;
+            box-shadow: 0 1rem 2rem rgba($color-black, .1);
+            outline: none;
+
+            &:invalid {
+                border-bottom: 3px solid $color-secondary-dark;
+            }
+        }
+    }
+
+    &-ta {
+        border: none;
+        border-bottom: 3px solid transparent;
+        border-radius: $border-radius-small;
+        color: $color-dark-grey;
+        display: block;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.15rem;
+        padding: .75rem 1rem;
+        transition: $standard-transition;
+        width: 100%;
+
+        &:focus {
+            border: 3px solid $color-primary;
+            box-shadow: 0 1rem 2rem rgba($color-black, .1);
+            outline: none;
+        }
+
+    }
+
+    &-label {
+        display: block;
+        color: $color-dark-grey;
+        font-size: $text-size-small;
+        font-weight: $font-weight-lighter;
+    }
+
+    &-button {
+        background-color: $color-primary;
+        border: none;
+        border-radius: $border-radius-medium;
+        box-shadow: $box-shadow-light;
+        color: $color-white;
+        font-size: $text-size-small;
+        font-weight: $font-weight-lighter;
+        padding: 1rem 2.5rem;
+        text-align: center;
+        transition: $standard-transition;
+
+        &:hover {
+            background-color: darken($color-primary, 10);
+            transform: translateY(-3px) scale(1.03);
+        }
+    }
+}

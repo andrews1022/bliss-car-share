@@ -1,4 +1,5 @@
 .pricing-card {
+    background-color: transparent;
     box-shadow: $box-shadow-light;
     color: $color-white;
     margin: $margin-center;
@@ -9,7 +10,7 @@
 
     &-image {
         position: relative;
-        
+
 
         &-text-box {
             @include absoluteCenter;
@@ -23,6 +24,7 @@
     }
 
     &-content {
+        background-color: white;
         color: $color-primary-dark;
         padding: 1.5rem 0;
     }
@@ -47,66 +49,14 @@
 
         &-item {
             font-size: $text-size-small;
+
             &:not(:last-child) {
                 margin-bottom: 2rem;
             }
 
             &-faded {
-               color: lighten($color-primary-dark, 45);
+                color: lighten($color-primary-dark, 45);
             }
         }
     }
 }
-
-// .pricing-header {
-//     color: $color-white;
-//     font-size: $text-size-large;
-//     font-weight: $font-weight-light;
-//     margin-bottom: $margin-bottom-extra-small;
-//     text-transform: uppercase;
-// }
-
-// .pricing {
-
-//     &-card {
-//         border: 2px solid rebeccapurple;
-//         background-color: rgba(102, 51, 153, 0.25);
-
-//         &-image {
-//             background-position: center;
-//             background-repeat: no-repeat;
-//             background-size: cover;
-//             height: 100%;
-//             opacity: .5;
-//             position: relative;
-
-//             &-1 {
-//                 background-image: linear-gradient(rgba($color-black, .5), rgba($color-black, .5)), url('../../img/price-card-1-tesla-crop.jpg');
-//             }
-
-//             &-2 {
-//                 background-image: linear-gradient(rgba($color-black, .5), rgba($color-black, .5)), url('../../img/price-card-2-audi-crop.jpg');
-//             }
-
-//             &-3 {
-//                 background-image: linear-gradient(rgba($color-black, .5), rgba($color-black, .5)), url('../../img/price-card-3-rolls-royce-crop.jpg');
-//             }
-
-//             &-text-box {
-//                 @include absoluteCenter;
-//             }
-
-//         }
-
-//         &-content {
-//             // background-color: rgba(0, 0, 255, 0.301);
-//             padding: 1rem 0;
-//         }
-
-//         &-list {
-//             list-style: none;
-//         }
-
-
-//     }
-// }
