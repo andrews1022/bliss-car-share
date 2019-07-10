@@ -8,20 +8,24 @@ body {
 }
 
 .heading-primary {
-    font-size: $text-size-medium;
+    font-size: $text-size-inbetween-sm;
     font-weight: $font-weight-light;
     margin-bottom: $margin-bottom-small;
+
+    @include respond(tab-port) {
+        font-size: 5rem;
+    }
+
+    @include respond(tab-land) {
+        font-size: 4rem;
+    }
 
     @include respond(laptop) {
         font-size: 5.5rem;
     }
 
-    @include respond(desktop) {
-        font-size: 6rem;
-    }
-
     @include respond(desktop-lg) {
-        font-size: 7rem;
+        font-size: $text-size-inbetween-lxl;
     }
 
     @include respond(desktop-lg) {
@@ -31,7 +35,7 @@ body {
 
 .heading-secondary {
     @include textGradient;
-    
+
     font-size: $text-size-medium;
     font-weight: $font-weight-light;
     margin-bottom: $margin-bottom-extra-small;
@@ -56,11 +60,11 @@ body {
             font-size: 5rem;
             margin-bottom: 3rem;
         }
-    
+
         @include respond(desktop-lg) {
             font-size: 6rem;
         }
-    
+
         @include respond(desktop-4k) {
             font-size: 7.5rem;
         }
@@ -68,10 +72,39 @@ body {
 }
 
 .heading-tertiary {
-    
     font-size: $text-size-inbetween-sm;
     font-weight: $font-weight-light;
     margin-bottom: $margin-bottom-extra-small;
+
+    @include respond(tab-land) {
+        font-size: 2.5rem;
+    }
+
+    @include respond(desktop-4k) {
+        font-size: 3rem;
+    }
+
+    &-testimonial {
+        @include respond(tab-port) {
+            font-size: 5rem;
+        }
+
+        @include respond(tab-land) {
+            font-size: 4rem;
+        }
+
+        @include respond(desktop) {
+            font-size: 5.5rem;
+        }
+
+        @include respond(desktop-lg) {
+            font-size: 6.75rem;
+        }
+
+        @include respond(desktop-4k) {
+            font-size: 8rem;
+        }
+    }
 
     &-contact {
         font-size: $text-size-medium;
@@ -82,18 +115,14 @@ body {
         color: $color-light-grey-4;
         font-size: 3.25rem;
         text-align: center;
-    }
 
-    @include respond(tab-land){
-        font-size: 2.5rem;
-    }
+        @include respond(tab-land) {
+            font-size: 2.25rem;
+        }
 
-    @include respond(tab-land){
-        font-size: 2.5rem;
-    }
-
-    @include respond(desktop-4k){
-        font-size: 3rem;
+        @include respond(desktop-lg) {
+            font-size: 3rem;
+        }
     }
 }
 
@@ -102,7 +131,11 @@ body {
 
     font-size: $text-size-extra-small;
 
-    @include respond(desktop-4k){
+    @include respond(tab-port) {
+        font-size: 1.75rem;
+    }
+
+    @include respond(desktop-4k) {
         font-size: 2.5rem;
     }
 }
@@ -111,11 +144,7 @@ body {
     font-size: $text-size-extra-small;
     font-weight: $font-weight-lighter;
 
-    &-footer {
-        color: $color-light-grey-4;
-    }
-
-    @include respond(tab-land){
+    @include respond(tab-land) {
         font-size: 1.25rem;
     }
 
@@ -125,5 +154,17 @@ body {
 
     @include respond(desktop-4k) {
         font-size: 1.7rem;
+    }
+
+    &-footer {
+        color: $color-light-grey-4;
+
+        @include respond(laptop) {
+            font-size: 1rem;
+        }
+
+        @include respond(desktop-lg) {
+            font-size: 1.25rem;
+        }
     }
 }

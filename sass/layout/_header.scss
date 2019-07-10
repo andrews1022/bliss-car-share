@@ -10,11 +10,11 @@
         left: 50%;
         position: absolute;
         text-align: $text-center;
-        top: 60%;
+        top: 70%;
         transform: translate(-50%, -50%);
         width: $wrapper-wide;
 
-        @include respond(tab-land) {
+        @include respond(tab-port) {
             top: 50%;
         }
     }

@@ -8,6 +8,10 @@
         margin-bottom: 5rem;
     }
 
+    &-navigation-box {
+        margin: 0 auto;
+    }
+
     &-list {
         font-weight: $font-weight-light;
         list-style: none;
@@ -21,6 +25,14 @@
     &-icon {
         font-size: 2.1rem;
         margin-right: 1rem;
+
+        @include respond(tab-land) {
+            font-size: 1.5rem;
+        }
+
+        @include respond(desktop-lg) {
+            font-size: 2rem;
+        }
 
         &-link:link,
         &-link:visited {
@@ -40,6 +52,14 @@
         color: $color-medium-grey-1;
         font-size: 2.1rem;
         transition: $standard-transition;
+
+        @include respond(tab-land) {
+            font-size: 1.5rem;
+        }
+
+        @include respond(desktop-lg) {
+            font-size: 2rem;
+        }
     }
 
     &-link:hover,
@@ -54,6 +74,14 @@
         color: $color-light-grey-4;
         font-size: $text-size-extra-small;
         transition: $standard-transition;  
+
+        @include respond(laptop) {
+            font-size: 1rem;
+        }
+
+        @include respond(desktop-lg) {
+            font-size: 1.25rem;
+        }
     }
 
     &-name-link:hover,

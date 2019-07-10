@@ -3,14 +3,19 @@
     box-shadow: $box-shadow-medium;
     color: $color-white;
     display: inline-block;
-    font-size: $text-size-small;
+    font-size: $text-size-extra-small;
     font-weight: $font-weight-lighter;
     margin: 1rem;
     padding: 1.25rem 3.5rem;
     transition: $standard-transition;
 
     @include respond(tab-port){
+        font-size: 2rem;
         padding: 1rem 3rem; 
+    }
+
+    @include respond(tab-land){
+        font-size: 1.75rem;
     }
 
     @include respond(desktop) {
@@ -68,7 +73,7 @@
         margin: 1rem;
         padding: .75rem 3rem;
 
-        @include respond(desktop) {
+        @include respond(tab-port) {
             font-size: 1.5rem;
         }
 

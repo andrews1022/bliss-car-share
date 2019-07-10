@@ -95,20 +95,26 @@ body {
 }
 
 .heading-primary {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 100;
   margin-bottom: 1.5rem;
+}
+
+@media only screen and (min-width: 48em) {
+  .heading-primary {
+    font-size: 5rem;
+  }
+}
+
+@media only screen and (min-width: 64em) {
+  .heading-primary {
+    font-size: 4rem;
+  }
 }
 
 @media only screen and (min-width: 85.375em) {
   .heading-primary {
     font-size: 5.5rem;
-  }
-}
-
-@media only screen and (min-width: 120em) {
-  .heading-primary {
-    font-size: 6rem;
   }
 }
 
@@ -184,6 +190,48 @@ body {
   margin-bottom: 1rem;
 }
 
+@media only screen and (min-width: 64em) {
+  .heading-tertiary {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 240em) {
+  .heading-tertiary {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (min-width: 48em) {
+  .heading-tertiary-testimonial {
+    font-size: 5rem;
+  }
+}
+
+@media only screen and (min-width: 64em) {
+  .heading-tertiary-testimonial {
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (min-width: 120em) {
+  .heading-tertiary-testimonial {
+    font-size: 5.5rem;
+  }
+}
+
+@media only screen and (min-width: 160em) {
+  .heading-tertiary-testimonial {
+    font-size: 6.75rem;
+  }
+}
+
+@media only screen and (min-width: 240em) {
+  .heading-tertiary-testimonial {
+    font-size: 8rem;
+  }
+}
+
 .heading-tertiary-contact {
   font-size: 4rem;
   text-align: center;
@@ -196,19 +244,13 @@ body {
 }
 
 @media only screen and (min-width: 64em) {
-  .heading-tertiary {
-    font-size: 2.5rem;
+  .heading-tertiary-footer {
+    font-size: 2.25rem;
   }
 }
 
-@media only screen and (min-width: 64em) {
-  .heading-tertiary {
-    font-size: 2.5rem;
-  }
-}
-
-@media only screen and (min-width: 240em) {
-  .heading-tertiary {
+@media only screen and (min-width: 160em) {
+  .heading-tertiary-footer {
     font-size: 3rem;
   }
 }
@@ -223,6 +265,12 @@ body {
   font-size: 1.5rem;
 }
 
+@media only screen and (min-width: 48em) {
+  .heading-quaternary {
+    font-size: 1.75rem;
+  }
+}
+
 @media only screen and (min-width: 240em) {
   .heading-quaternary {
     font-size: 2.5rem;
@@ -232,10 +280,6 @@ body {
 .paragraph {
   font-size: 1.5rem;
   font-weight: 300;
-}
-
-.paragraph-footer {
-  color: #d1d1d1;
 }
 
 @media only screen and (min-width: 64em) {
@@ -256,25 +300,20 @@ body {
   }
 }
 
-.u-text-center {
-  text-align: center;
+.paragraph-footer {
+  color: #d1d1d1;
 }
 
-.bg-video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  z-index: -10;
-  opacity: .2;
+@media only screen and (min-width: 85.375em) {
+  .paragraph-footer {
+    font-size: 1rem;
+  }
 }
 
-.bg-video-content {
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: 100%;
+@media only screen and (min-width: 160em) {
+  .paragraph-footer {
+    font-size: 1.25rem;
+  }
 }
 
 .button {
@@ -283,7 +322,7 @@ body {
           box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.5);
   color: #fff;
   display: inline-block;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 300;
   margin: 1rem;
   padding: 1.25rem 3.5rem;
@@ -293,7 +332,14 @@ body {
 
 @media only screen and (min-width: 48em) {
   .button {
+    font-size: 2rem;
     padding: 1rem 3rem;
+  }
+}
+
+@media only screen and (min-width: 64em) {
+  .button {
+    font-size: 1.75rem;
   }
 }
 
@@ -355,7 +401,7 @@ body {
   padding: .75rem 3rem;
 }
 
-@media only screen and (min-width: 120em) {
+@media only screen and (min-width: 48em) {
   .button-2:link, .button-2:visited {
     font-size: 1.5rem;
   }
@@ -386,10 +432,34 @@ body {
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 100%), url("../img/vancouver-downtown-sunny.jpg");
   background-size: cover;
   background-position: top left;
-  height: 60rem;
   -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
           box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
   border-radius: 5px;
+}
+
+@media only screen and (min-width: 48em) {
+  .contact {
+    margin: 0 auto;
+    width: 75%;
+  }
+}
+
+@media only screen and (min-width: 120em) {
+  .contact {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 160em) {
+  .contact {
+    width: 67%;
+  }
+}
+
+@media only screen and (min-width: 240em) {
+  .contact {
+    width: 65%;
+  }
 }
 
 .contact-form {
@@ -454,6 +524,24 @@ body {
   width: 100%;
 }
 
+@media only screen and (min-width: 120em) {
+  .form-input {
+    font-size: 1.25rem;
+  }
+}
+
+@media only screen and (min-width: 160em) {
+  .form-input {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 240em) {
+  .form-input {
+    font-size: 1.75rem;
+  }
+}
+
 .form-input:focus {
   border-bottom: 3px solid #75cac3;
   -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
@@ -491,6 +579,24 @@ body {
   color: #333;
   font-size: 2rem;
   font-weight: 300;
+}
+
+@media only screen and (min-width: 120em) {
+  .form-label {
+    font-size: 2.25rem;
+  }
+}
+
+@media only screen and (min-width: 160em) {
+  .form-label {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 240em) {
+  .form-label {
+    font-size: 2.75rem;
+  }
 }
 
 .form-button {
@@ -535,7 +641,7 @@ body {
 
 @media only screen and (min-width: 48em) {
   .pricing-card {
-    width: 60%;
+    width: 70%;
   }
 }
 
@@ -727,13 +833,59 @@ body {
   border-radius: 5px;
   -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
           box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
-  height: 55vh;
+  height: 65vh;
   margin-bottom: 4.5rem;
   position: relative;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+@media only screen and (min-width: 48em) {
+  .testimonial {
+    background-size: 100%;
+    height: 61vh;
+    margin: 0 auto;
+    margin-bottom: 4.5rem;
+    width: 85%;
+  }
+}
+
+@media only screen and (min-width: 64em) {
+  .testimonial {
+    height: 70vh;
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+}
+
+@media only screen and (min-width: 85.375em) {
+  .testimonial {
+    height: 95vh;
+    -webkit-transform: scale(0.85);
+            transform: scale(0.85);
+  }
+}
+
+@media only screen and (min-width: 120em) {
+  .testimonial {
+    height: 98vh;
+  }
 }
 
 .testimonial-container {
   margin: 0 auto;
+}
+
+@media only screen and (min-width: 48em) {
+  .testimonial-container {
+    padding: 1.5rem 5rem 1.5rem 5rem;
+  }
+}
+
+@media only screen and (min-width: 48em) {
+  .testimonial-container {
+    padding: 1.5rem 4rem 1.5rem 4rem;
+  }
 }
 
 .testimonial-1 {
@@ -745,6 +897,13 @@ body {
   background-image: linear-gradient(150deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 36%, transparent 36%), url("../img/testimonial-image-man-in-cafe.jpg");
 }
 
+@media only screen and (min-width: 64em) {
+  .testimonial-2 {
+    margin-top: 2rem;
+    background-image: linear-gradient(150deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 33%, transparent 33%), url("../img/testimonial-image-man-in-cafe.jpg");
+  }
+}
+
 .testimonial-text-box {
   max-width: 33ch;
   position: absolute;
@@ -753,18 +912,94 @@ body {
 }
 
 .testimonial-text-box-1 {
-  padding: 1.25rem 1.25rem 0 0;
+  padding: .25rem 1rem 0 0;
   right: 0;
   text-align: right;
   top: 0;
 }
 
+@media only screen and (min-width: 48em) {
+  .testimonial-text-box-1 {
+    padding: 0.25rem 1.25rem 0 0;
+  }
+}
+
+@media only screen and (min-width: 85.375em) {
+  .testimonial-text-box-1 {
+    padding: 1.5rem 2.5rem 0 0;
+  }
+}
+
 .testimonial-text-box-2 {
   max-width: 35ch;
   left: 0;
-  padding: 1.25rem 0 0 1.25rem;
+  padding: .25rem 0 0 1rem;
   text-align: left;
   top: 0;
+}
+
+@media only screen and (min-width: 48em) {
+  .testimonial-text-box-2 {
+    padding: 0.25rem 0 0 1.25rem;
+  }
+}
+
+@media only screen and (min-width: 85.375em) {
+  .testimonial-text-box-2 {
+    padding: 1.5rem 0 0 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 48em) {
+  .testimonial-text-box {
+    max-width: 40ch;
+  }
+}
+
+@media only screen and (min-width: 120em) {
+  .testimonial-text-box {
+    max-width: 55ch;
+  }
+}
+
+@media only screen and (min-width: 240em) {
+  .testimonial-text-box {
+    max-width: 70ch;
+  }
+}
+
+.testimonial-header {
+  font-size: 1.1rem;
+}
+
+@media only screen and (min-width: 48em) {
+  .testimonial-header {
+    font-size: 1.6rem;
+  }
+}
+
+@media only screen and (min-width: 64em) {
+  .testimonial-header {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (min-width: 120em) {
+  .testimonial-header {
+    font-size: 1.75rem;
+  }
+}
+
+@media only screen and (min-width: 160em) {
+  .testimonial-header {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 240em) {
+  .testimonial-header {
+    font-size: 2.75rem;
+  }
 }
 
 .footer {
@@ -776,6 +1011,10 @@ body {
 
 .footer-navigation {
   margin-bottom: 5rem;
+}
+
+.footer-navigation-box {
+  margin: 0 auto;
 }
 
 .footer-list {
@@ -791,6 +1030,18 @@ body {
 .footer-icon {
   font-size: 2.1rem;
   margin-right: 1rem;
+}
+
+@media only screen and (min-width: 64em) {
+  .footer-icon {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 160em) {
+  .footer-icon {
+    font-size: 2rem;
+  }
 }
 
 .footer-icon-link:link, .footer-icon-link:visited {
@@ -812,6 +1063,18 @@ body {
   transition: all 0.25s;
 }
 
+@media only screen and (min-width: 64em) {
+  .footer-link:link, .footer-link:visited {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 160em) {
+  .footer-link:link, .footer-link:visited {
+    font-size: 2rem;
+  }
+}
+
 .footer-link:hover, .footer-link:active, .footer-link:focus {
   color: #eee;
   text-decoration: none;
@@ -822,6 +1085,18 @@ body {
   font-size: 1.5rem;
   -webkit-transition: all 0.25s;
   transition: all 0.25s;
+}
+
+@media only screen and (min-width: 85.375em) {
+  .footer-name-link:link, .footer-name-link:visited {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 160em) {
+  .footer-name-link:link, .footer-name-link:visited {
+    font-size: 1.25rem;
+  }
 }
 
 .footer-name-link:hover, .footer-name-link:active, .footer-name-link:focus {
@@ -843,13 +1118,13 @@ body {
   left: 50%;
   position: absolute;
   text-align: center;
-  top: 60%;
+  top: 70%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   width: 90%;
 }
 
-@media only screen and (min-width: 64em) {
+@media only screen and (min-width: 48em) {
   .header-text-box {
     top: 50%;
   }
@@ -995,13 +1270,13 @@ body {
 }
 
 .section-steps-img {
-  background-image: url("../img/vancouver-night-aerial-crop.jpg");
-  min-height: 100%;
-  height: 45vh;
   background-attachment: fixed;
+  background-image: url("../img/vancouver-night-aerial-crop.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 100%;
+  height: 45vh;
 }
 
 .section-steps-content {
@@ -1024,6 +1299,12 @@ body {
 
 .section-pricing-header {
   color: #fff;
+}
+
+@media only screen and (min-width: 48em) {
+  .section-pricing {
+    padding: 5rem 2rem 2rem 2rem;
+  }
 }
 
 @media only screen and (min-width: 64em) {

@@ -2,9 +2,25 @@
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 100%), url('../img/vancouver-downtown-sunny.jpg'); 
     background-size: cover;
     background-position: top left;
-    height: 60rem;
     box-shadow: $box-shadow-light;
     border-radius: $border-radius-medium;
+
+    @include respond (tab-port) {
+        margin: 0 auto;
+        width: 75%;
+    }
+
+    @include respond(desktop) {
+        width: 70%;
+    }
+
+    @include respond(desktop-lg) {
+        width: 67%;
+    }
+
+    @include respond(desktop-4k) {
+        width: 65%;
+    }
 
     &-form {
         padding: .5rem;
