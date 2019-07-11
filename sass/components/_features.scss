@@ -5,7 +5,6 @@
     }
 
     &-card {
-        // background-color: red;
         border-radius: $border-radius-medium;
         margin: $margin-center;
         margin-bottom: $margin-bottom-small;
@@ -17,8 +16,6 @@
             box-shadow: $box-shadow-light;
             transform: translateY(-3px);
         }
-
-        @include respond(laptop){}
     }
 
     &-icon {

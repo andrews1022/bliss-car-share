@@ -24,1356 +24,1356 @@ min-width 3840px == desktop-4k
 *:after,
 *::before,
 *::after {
-    -webkit-box-sizing: inherit;
-    box-sizing: inherit;
-    margin: 0;
-    padding: 0;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;
 }
 
 @media only screen and (min-width: 48em) {
-    html {
-        font-size: 68.75%;
-    }
+  html {
+    font-size: 68.75%;
+  }
 }
 
 @media only screen and (min-width: 64em) {
-    html {
-        font-size: 75%;
-    }
+  html {
+    font-size: 75%;
+  }
 }
 
 @media only screen and (min-width: 85.375em) {
-    html {
-        font-size: 81.25%;
-    }
+  html {
+    font-size: 81.25%;
+  }
 }
 
 @media only screen and (min-width: 120em) {
-    html {
-        font-size: 87.5%;
-    }
+  html {
+    font-size: 87.5%;
+  }
 }
 
 @media only screen and (min-width: 160em) {
-    html {
-        font-size: 100%;
-    }
+  html {
+    font-size: 100%;
+  }
 }
 
 @media only screen and (min-width: 240em) {
-    html {
-        font-size: 112.5%;
-    }
+  html {
+    font-size: 112.5%;
+  }
 }
 
 img {
-    display: block;
-    height: auto;
-    max-width: 100%;
+  display: block;
+  height: auto;
+  max-width: 100%;
 }
 
 ::-moz-selection {
-    background-color: #75cac3;
-    color: #fff;
+  background-color: #75cac3;
+  color: #fff;
 }
 
 ::selection {
-    background-color: #75cac3;
-    color: #fff;
+  background-color: #75cac3;
+  color: #fff;
 }
 
 body {
-    color: #333;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
 
 .heading-primary {
-    font-size: 3rem;
-    font-weight: 100;
-    margin-bottom: 1.5rem;
+  font-size: 3rem;
+  font-weight: 100;
+  margin-bottom: 1.5rem;
 }
 
 @media only screen and (min-width: 48em) {
-    .heading-primary {
-        font-size: 5rem;
-    }
+  .heading-primary {
+    font-size: 5rem;
+  }
 }
 
 @media only screen and (min-width: 64em) {
-    .heading-primary {
-        font-size: 4rem;
-    }
+  .heading-primary {
+    font-size: 4rem;
+  }
 }
 
 @media only screen and (min-width: 85.375em) {
-    .heading-primary {
-        font-size: 5.5rem;
-    }
+  .heading-primary {
+    font-size: 5.5rem;
+  }
 }
 
 @media only screen and (min-width: 160em) {
-    .heading-primary {
-        font-size: 7rem;
-    }
+  .heading-primary {
+    font-size: 7rem;
+  }
 }
 
 @media only screen and (min-width: 160em) {
-    .heading-primary {
-        font-size: 9rem;
-    }
+  .heading-primary {
+    font-size: 9rem;
+  }
 }
 
 .heading-secondary {
-    background-image: -webkit-gradient(linear, left top, right top, from(#43afa6), to(#2a6171));
-    background-image: linear-gradient(to right, #43afa6, #2a6171);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    display: inline-block;
-    font-size: 4rem;
-    font-weight: 100;
-    margin-bottom: 1rem;
-    text-transform: uppercase;
+  background-image: -webkit-gradient(linear, left top, right top, from(#43afa6), to(#2a6171));
+  background-image: linear-gradient(to right, #43afa6, #2a6171);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+  font-size: 4rem;
+  font-weight: 100;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
 }
 
 @media only screen and (min-width: 48em) {
-    .heading-secondary {
-        font-size: 5rem;
-    }
+  .heading-secondary {
+    font-size: 5rem;
+  }
 }
 
 @media only screen and (min-width: 160em) {
-    .heading-secondary {
-        font-size: 6rem;
-    }
+  .heading-secondary {
+    font-size: 6rem;
+  }
 }
 
 @media only screen and (min-width: 240em) {
-    .heading-secondary {
-        font-size: 7.5rem;
-    }
+  .heading-secondary {
+    font-size: 7.5rem;
+  }
 }
 
 .heading-secondary-white {
-    color: #fff;
+  color: #fff;
 }
 
 @media only screen and (min-width: 48em) {
-    .heading-secondary-white {
-        font-size: 5rem;
-        margin-bottom: 3rem;
-    }
+  .heading-secondary-white {
+    font-size: 5rem;
+    margin-bottom: 3rem;
+  }
 }
 
 @media only screen and (min-width: 160em) {
-    .heading-secondary-white {
-        font-size: 6rem;
-    }
+  .heading-secondary-white {
+    font-size: 6rem;
+  }
 }
 
 @media only screen and (min-width: 240em) {
-    .heading-secondary-white {
-        font-size: 7.5rem;
-    }
+  .heading-secondary-white {
+    font-size: 7.5rem;
+  }
 }
 
 .heading-tertiary {
-    font-size: 3rem;
-    font-weight: 100;
-    margin-bottom: 1rem;
+  font-size: 3rem;
+  font-weight: 100;
+  margin-bottom: 1rem;
 }
 
 @media only screen and (min-width: 64em) {
-    .heading-tertiary {
-        font-size: 2.5rem;
-    }
+  .heading-tertiary {
+    font-size: 2.5rem;
+  }
 }
 
 @media only screen and (min-width: 240em) {
-    .heading-tertiary {
-        font-size: 3rem;
-    }
+  .heading-tertiary {
+    font-size: 3rem;
+  }
 }
 
 @media only screen and (min-width: 48em) {
-    .heading-tertiary-testimonial {
-        font-size: 5rem;
-    }
+  .heading-tertiary-testimonial {
+    font-size: 5rem;
+  }
 }
 
 @media only screen and (min-width: 64em) {
-    .heading-tertiary-testimonial {
-        font-size: 4rem;
-    }
+  .heading-tertiary-testimonial {
+    font-size: 4rem;
+  }
 }
 
 @media only screen and (min-width: 120em) {
-    .heading-tertiary-testimonial {
-        font-size: 5.5rem;
-    }
+  .heading-tertiary-testimonial {
+    font-size: 5.5rem;
+  }
 }
 
 @media only screen and (min-width: 160em) {
-    .heading-tertiary-testimonial {
-        font-size: 6.75rem;
-    }
+  .heading-tertiary-testimonial {
+    font-size: 6.75rem;
+  }
 }
 
 @media only screen and (min-width: 240em) {
-    .heading-tertiary-testimonial {
-        font-size: 8rem;
-    }
+  .heading-tertiary-testimonial {
+    font-size: 8rem;
+  }
 }
 
 .heading-tertiary-contact {
-    font-size: 4rem;
-    text-align: center;
+  font-size: 4rem;
+  text-align: center;
 }
 
 .heading-tertiary-footer {
-    color: #d1d1d1;
-    font-size: 3.25rem;
-    text-align: center;
+  color: #d1d1d1;
+  font-size: 3.25rem;
+  text-align: center;
 }
 
 @media only screen and (min-width: 64em) {
-    .heading-tertiary-footer {
-        font-size: 2.25rem;
-    }
+  .heading-tertiary-footer {
+    font-size: 2.25rem;
+  }
 }
 
 @media only screen and (min-width: 160em) {
-    .heading-tertiary-footer {
-        font-size: 3rem;
-    }
+  .heading-tertiary-footer {
+    font-size: 3rem;
+  }
 }
 
 .heading-quaternary {
-    background-image: -webkit-gradient(linear, left top, right top, from(#43afa6), to(#2a6171));
-    background-image: linear-gradient(to right, #43afa6, #2a6171);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    display: inline-block;
-    font-size: 1.5rem;
+  background-image: -webkit-gradient(linear, left top, right top, from(#43afa6), to(#2a6171));
+  background-image: linear-gradient(to right, #43afa6, #2a6171);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+  font-size: 1.5rem;
 }
 
 @media only screen and (min-width: 48em) {
-    .heading-quaternary {
-        font-size: 1.75rem;
-    }
+  .heading-quaternary {
+    font-size: 1.75rem;
+  }
 }
 
 @media only screen and (min-width: 240em) {
-    .heading-quaternary {
-        font-size: 2.5rem;
-    }
+  .heading-quaternary {
+    font-size: 2.5rem;
+  }
 }
 
 .paragraph {
-    font-size: 1.5rem;
-    font-weight: 300;
+  font-size: 1.5rem;
+  font-weight: 300;
 }
 
 @media only screen and (min-width: 64em) {
-    .paragraph {
-        font-size: 1.25rem;
-    }
+  .paragraph {
+    font-size: 1.25rem;
+  }
 }
 
 @media only screen and (min-width: 160em) {
-    .paragraph {
-        font-size: 1.5rem;
-    }
+  .paragraph {
+    font-size: 1.5rem;
+  }
 }
 
 @media only screen and (min-width: 240em) {
-    .paragraph {
-        font-size: 1.7rem;
-    }
+  .paragraph {
+    font-size: 1.75rem;
+  }
 }
 
 .paragraph-footer {
-    color: #d1d1d1;
+  color: #d1d1d1;
 }
 
 @media only screen and (min-width: 85.375em) {
-    .paragraph-footer {
-        font-size: 1rem;
-    }
+  .paragraph-footer {
+    font-size: 1rem;
+  }
 }
 
 @media only screen and (min-width: 160em) {
-    .paragraph-footer {
-        font-size: 1.25rem;
-    }
+  .paragraph-footer {
+    font-size: 1.25rem;
+  }
 }
 
 .button {
-    border-radius: 5px;
-    -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.5);
-    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.5);
-    color: #fff;
-    display: inline-block;
-    font-size: 1.5rem;
-    font-weight: 300;
-    margin: 1rem;
-    padding: 1.25rem 3.5rem;
-    -webkit-transition: all 0.25s;
-    transition: all 0.25s;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.5);
+  color: #fff;
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin: 1rem;
+  padding: 1.25rem 3.5rem;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
 }
 
 @media only screen and (min-width: 48em) {
-    .button {
-        font-size: 2rem;
-        padding: 1rem 3rem;
-    }
+  .button {
+    font-size: 2rem;
+    padding: 1rem 3rem;
+  }
 }
 
 @media only screen and (min-width: 64em) {
-    .button {
-        font-size: 1.75rem;
-    }
+  .button {
+    font-size: 1.75rem;
+  }
 }
 
 @media only screen and (min-width: 120em) {
-    .button {
-        font-size: 2rem;
-    }
+  .button {
+    font-size: 2rem;
+  }
 }
 
 @media only screen and (min-width: 160em) {
-    .button {
-        font-size: 2.5rem;
-    }
+  .button {
+    font-size: 2.5rem;
+  }
 }
 
 @media only screen and (min-width: 160em) {
-    .button {
-        font-size: 3.5rem;
-    }
+  .button {
+    font-size: 3.5rem;
+  }
 }
 
 .button-fill:link,
 .button-fill:visited {
-    background-color: #75cac3;
-    border: 2px solid transparent;
+  background-color: #75cac3;
+  border: 2px solid transparent;
 }
 
 .button-fill:hover,
 .button-fill:active,
 .button-fill:focus {
-    background-color: #43afa6;
-    color: #fff;
-    text-decoration: none;
-    -webkit-transform: translateY(-3px) scale(1.03);
-    transform: translateY(-3px) scale(1.03);
+  background-color: #43afa6;
+  color: #fff;
+  text-decoration: none;
+  -webkit-transform: translateY(-3px) scale(1.03);
+  transform: translateY(-3px) scale(1.03);
 }
 
 .button-outline:link,
 .button-outline:visited {
-    border: 2px solid #75cac3;
+  border: 2px solid #75cac3;
 }
 
 .button-outline:hover,
 .button-outline:active,
 .button-outline:focus {
-    background-color: #50bcb3;
-    border: 2px solid #50bcb3;
-    color: #fff;
-    text-decoration: none;
-    -webkit-transform: translateY(-3px) scale(1.03);
-    transform: translateY(-3px) scale(1.03);
+  background-color: #50bcb3;
+  border: 2px solid #50bcb3;
+  color: #fff;
+  text-decoration: none;
+  -webkit-transform: translateY(-3px) scale(1.03);
+  transform: translateY(-3px) scale(1.03);
 }
 
 .button-2 {
-    -webkit-transition: all 0.25s;
-    transition: all 0.25s;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
 }
 
 .button-2:link,
 .button-2:visited {
-    border-bottom: 2px solid #75cac3;
-    border-radius: 5px;
-    color: #333;
-    font-size: 1.25rem;
-    margin: 1rem;
-    padding: .75rem 3rem;
+  border-bottom: 2px solid #75cac3;
+  border-radius: 5px;
+  color: #333;
+  font-size: 1.25rem;
+  margin: 1rem;
+  padding: .75rem 3rem;
 }
 
 @media only screen and (min-width: 48em) {
 
-    .button-2:link,
-    .button-2:visited {
-        font-size: 1.5rem;
-    }
+  .button-2:link,
+  .button-2:visited {
+    font-size: 1.5rem;
+  }
 }
 
 @media only screen and (min-width: 160em) {
 
-    .button-2:link,
-    .button-2:visited {
-        font-size: 1.75rem;
-    }
+  .button-2:link,
+  .button-2:visited {
+    font-size: 1.75rem;
+  }
 }
 
 @media only screen and (min-width: 240em) {
 
-    .button-2:link,
-    .button-2:visited {
-        font-size: 2rem;
-    }
+  .button-2:link,
+  .button-2:visited {
+    font-size: 2rem;
+  }
 }
 
 .button-2:hover,
 .button-2:active,
 .button-2:focus {
-    background-color: #75cac3;
-    color: #fff;
-    text-decoration: none;
-    -webkit-transform: translateY(-3px) scale(1.03);
-    transform: translateY(-3px) scale(1.03);
+  background-color: #75cac3;
+  color: #fff;
+  text-decoration: none;
+  -webkit-transform: translateY(-3px) scale(1.03);
+  transform: translateY(-3px) scale(1.03);
 }
 
 .contact {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.7))), url("../img/vancouver-downtown-sunny.jpg");
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 100%), url("../img/vancouver-downtown-sunny.jpg");
-    background-size: cover;
-    background-position: top left;
-    -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
-    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.7))), url("../img/vancouver-downtown-sunny.jpg");
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 100%), url("../img/vancouver-downtown-sunny.jpg");
+  background-size: cover;
+  background-position: top left;
+  -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
 }
 
 @media only screen and (min-width: 48em) {
-    .contact {
-        margin: 0 auto;
-        width: 75%;
-    }
+  .contact {
+    margin: 0 auto;
+    width: 75%;
+  }
 }
 
 @media only screen and (min-width: 120em) {
-    .contact {
-        width: 70%;
-    }
+  .contact {
+    width: 70%;
+  }
 }
 
 @media only screen and (min-width: 160em) {
-    .contact {
-        width: 67%;
-    }
+  .contact {
+    width: 67%;
+  }
 }
 
 @media only screen and (min-width: 240em) {
-    .contact {
-        width: 65%;
-    }
+  .contact {
+    width: 65%;
+  }
 }
 
 .contact-form {
-    padding: .5rem;
-    margin: 0 auto;
+  padding: .5rem;
+  margin: 0 auto;
 }
 
 .features-row {
-    padding: 0 2rem;
+  padding: 0 2rem;
 }
 
 .features-card {
-    border-radius: 5px;
-    margin: 0 auto;
-    margin-bottom: 1.5rem;
-    padding: 2rem;
-    -webkit-transition: all 0.25s;
-    transition: all 0.25s;
-    width: 75%;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+  padding: 2rem;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  width: 75%;
 }
 
 .features-card:hover {
-    -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
-    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
-    -webkit-transform: translateY(-3px);
-    transform: translateY(-3px);
+  -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
+  -webkit-transform: translateY(-3px);
+  transform: translateY(-3px);
 }
 
 .features-icon {
-    color: #2a6171;
-    font-size: 5rem;
+  color: #2a6171;
+  font-size: 5rem;
 }
 
 .form {
-    margin-top: 2rem;
-    text-align: left;
+  margin-top: 2rem;
+  text-align: left;
 }
 
 .form-group:not(:last-child) {
-    margin-bottom: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .form-group-button {
-    text-align: center;
+  text-align: center;
 }
 
 .form-container {
-    padding: 1rem 2.5rem;
+  padding: 1rem 2.5rem;
 }
 
 .form-input {
-    border: none;
-    border-bottom: 3px solid transparent;
-    border-radius: 3px;
-    color: #333;
-    display: block;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.15rem;
-    padding: .75rem 1rem;
-    -webkit-transition: all 0.25s;
-    transition: all 0.25s;
-    width: 100%;
+  border: none;
+  border-bottom: 3px solid transparent;
+  border-radius: 3px;
+  color: #333;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.15rem;
+  padding: .75rem 1rem;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  width: 100%;
 }
 
 @media only screen and (min-width: 120em) {
-    .form-input {
-        font-size: 1.25rem;
-    }
+  .form-input {
+    font-size: 1.25rem;
+  }
 }
 
 @media only screen and (min-width: 160em) {
-    .form-input {
-        font-size: 1.5rem;
-    }
+  .form-input {
+    font-size: 1.5rem;
+  }
 }
 
 @media only screen and (min-width: 240em) {
-    .form-input {
-        font-size: 1.75rem;
-    }
+  .form-input {
+    font-size: 1.75rem;
+  }
 }
 
 .form-input:focus {
-    border-bottom: 3px solid #75cac3;
-    -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
-    outline: none;
+  border-bottom: 3px solid #75cac3;
+  -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  outline: none;
 }
 
 .form-input:focus:invalid {
-    border-bottom: 3px solid #ce2754;
+  border-bottom: 3px solid #ce2754;
 }
 
 .form-ta {
-    border: none;
-    border-bottom: 3px solid transparent;
-    border-radius: 3px;
-    color: #333;
-    display: block;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.15rem;
-    padding: .75rem 1rem;
-    -webkit-transition: all 0.25s;
-    transition: all 0.25s;
-    width: 100%;
+  border: none;
+  border-bottom: 3px solid transparent;
+  border-radius: 3px;
+  color: #333;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.15rem;
+  padding: .75rem 1rem;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  width: 100%;
 }
 
 .form-ta:focus {
-    border: 3px solid #75cac3;
-    -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
-    outline: none;
+  border-bottom: 3px solid #75cac3;
+  -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  outline: none;
 }
 
 .form-label {
-    display: block;
-    color: #333;
-    font-size: 2rem;
-    font-weight: 300;
+  display: block;
+  color: #333;
+  font-size: 2rem;
+  font-weight: 300;
 }
 
 @media only screen and (min-width: 120em) {
-    .form-label {
-        font-size: 2.25rem;
-    }
+  .form-label {
+    font-size: 2.25rem;
+  }
 }
 
 @media only screen and (min-width: 160em) {
-    .form-label {
-        font-size: 2.5rem;
-    }
+  .form-label {
+    font-size: 2.5rem;
+  }
 }
 
 @media only screen and (min-width: 240em) {
-    .form-label {
-        font-size: 2.75rem;
-    }
+  .form-label {
+    font-size: 2.75rem;
+  }
 }
 
 .form-button {
-    background-color: #75cac3;
-    border: none;
-    border-radius: 5px;
-    -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
-    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
-    color: #fff;
-    font-size: 2rem;
-    font-weight: 300;
-    padding: 1rem 2.5rem;
-    text-align: center;
-    -webkit-transition: all 0.25s;
-    transition: all 0.25s;
+  background-color: #75cac3;
+  border: none;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 300;
+  padding: 1rem 2.5rem;
+  text-align: center;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
 }
 
 .form-button:hover {
-    background-color: #50bcb3;
-    -webkit-transform: translateY(-3px) scale(1.03);
-    transform: translateY(-3px) scale(1.03);
+  background-color: #50bcb3;
+  -webkit-transform: translateY(-3px) scale(1.03);
+  transform: translateY(-3px) scale(1.03);
 }
 
 .pricing-card {
-    background-color: transparent;
-    -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
-    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
-    color: #fff;
-    margin: 0 auto;
-    margin-bottom: 6rem;
-    padding: 0;
-    position: relative;
-    -webkit-transition: all 0.25s;
-    transition: all 0.25s;
-    width: 90%;
+  background-color: transparent;
+  -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
+  color: #fff;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+  padding: 0;
+  position: relative;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  width: 90%;
 }
 
 .pricing-card:hover {
-    -webkit-transform: scale(0.93) translateY(-3px);
-    transform: scale(0.93) translateY(-3px);
+  -webkit-transform: scale(0.93) translateY(-3px);
+  transform: scale(0.93) translateY(-3px);
 }
 
 @media only screen and (min-width: 48em) {
-    .pricing-card {
-        width: 70%;
-    }
+  .pricing-card {
+    width: 70%;
+  }
 }
 
 @media only screen and (min-width: 64em) {
-    .pricing-card {
-        -webkit-transform: scale(0.9);
-        transform: scale(0.9);
-        margin-bottom: 2rem;
-    }
+  .pricing-card {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    margin-bottom: 2rem;
+  }
 }
 
 .pricing-card-image {
-    position: relative;
+  position: relative;
 }
 
 .pricing-card-image-text-box {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.6);
-    width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
 }
 
 .pricing-card-image-1 {
-    border-radius: 7px 7px 0 0;
+  border-radius: 7px 7px 0 0;
 }
 
 .pricing-card-content {
-    background-color: white;
-    color: #2a6171;
-    padding: 1.5rem 0;
+  background-color: white;
+  color: #2a6171;
+  padding: 1.5rem 0;
 }
 
 .pricing-card-membership-header {
-    font-size: 4rem;
-    font-weight: 100;
-    padding-top: 1.5rem;
-    margin-bottom: 1rem;
-    text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 100;
+  padding-top: 1.5rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
 }
 
 @media only screen and (min-width: 64em) {
-    .pricing-card-membership-header {
-        font-size: 3.25rem;
-    }
+  .pricing-card-membership-header {
+    font-size: 3.25rem;
+  }
 }
 
 @media only screen and (min-width: 120em) {
-    .pricing-card-membership-header {
-        font-size: 4.75rem;
-    }
+  .pricing-card-membership-header {
+    font-size: 4.75rem;
+  }
 }
 
 .pricing-card-price-header {
-    font-size: 5.4rem;
-    font-weight: 100;
+  font-size: 5.4rem;
+  font-weight: 100;
 }
 
 @media only screen and (min-width: 160em) {
-    .pricing-card-price-header {
-        font-size: 6.5rem;
-    }
+  .pricing-card-price-header {
+    font-size: 6.5rem;
+  }
 }
 
 .pricing-card-list {
-    font-weight: 300;
-    list-style: none;
-    margin-top: 1.5rem;
+  font-weight: 300;
+  list-style: none;
+  margin-top: 1.5rem;
 }
 
 .pricing-card-list-item {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 @media only screen and (min-width: 160em) {
-    .pricing-card-list-item {
-        font-size: 2.5rem;
-    }
+  .pricing-card-list-item {
+    font-size: 2.5rem;
+  }
 }
 
 .pricing-card-list-item:not(:last-child) {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .pricing-card-list-item-faded {
-    color: #a4d0dd;
+  color: #a4d0dd;
 }
 
 @media only screen and (min-width: 85.375em) {
-    .pricing-card-span {
-        font-size: 1.5rem;
-    }
+  .pricing-card-span {
+    font-size: 1.5rem;
+  }
 }
 
 @media only screen and (min-width: 120em) {
-    .pricing-card-span {
-        font-size: 1.75rem;
-    }
+  .pricing-card-span {
+    font-size: 1.75rem;
+  }
 }
 
 @media only screen and (min-width: 160em) {
-    .pricing-card-span {
-        font-size: 2rem;
-    }
+  .pricing-card-span {
+    font-size: 2rem;
+  }
 }
 
 @media only screen and (min-width: 240em) {
-    .pricing-card-span {
-        font-size: 2.25rem;
-    }
+  .pricing-card-span {
+    font-size: 2.25rem;
+  }
 }
 
 .steps {
-    background-color: #f7f7f7;
+  background-color: #f7f7f7;
 }
 
 .steps-block {
-    margin: 3rem;
+  margin: 3rem;
 }
 
 @media only screen and (min-width: 120em) {
-    .steps-block {
-        margin-bottom: 3rem;
-    }
+  .steps-block {
+    margin-bottom: 3rem;
+  }
 }
 
 @media only screen and (min-width: 240em) {
-    .steps-block {
-        margin-bottom: 5rem;
-    }
+  .steps-block {
+    margin-bottom: 5rem;
+  }
 }
 
 @media only screen and (min-width: 120em) {
-    .steps-block-left {
-        margin-top: 5.5rem;
-    }
+  .steps-block-left {
+    margin-top: 5.5rem;
+  }
 }
 
 @media only screen and (min-width: 160em) {
-    .steps-block-left {
-        margin-top: 9rem;
-    }
+  .steps-block-left {
+    margin-top: 9rem;
+  }
 }
 
 @media only screen and (min-width: 240em) {
-    .steps-block-left {
-        margin-top: 15rem;
-    }
+  .steps-block-left {
+    margin-top: 15rem;
+  }
 }
 
 .steps-carousel {
-    border-radius: 5px;
-    -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
-    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
-    margin: 3rem auto;
-    overflow: hidden;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
+  margin: 3rem auto;
+  overflow: hidden;
 }
 
 @media only screen and (min-width: 48em) {
-    .steps-carousel {
-        margin: 3.5rem auto;
-        width: 85%;
-    }
+  .steps-carousel {
+    margin: 3.5rem auto;
+    width: 85%;
+  }
 }
 
 @media only screen and (min-width: 64em) {
-    .steps-carousel {
-        margin-top: 4.2rem;
-    }
+  .steps-carousel {
+    margin-top: 4.2rem;
+  }
 }
 
 @media only screen and (min-width: 85.375em) {
-    .steps-carousel {
-        margin-top: 3.5rem;
-    }
+  .steps-carousel {
+    margin-top: 3.5rem;
+  }
 }
 
 .steps-learn-more {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .testimonial {
-    background-attachment: local;
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: 113% auto;
-    border-radius: 5px;
-    -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
-    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
-    height: 65vh;
-    margin-bottom: 4.5rem;
-    position: relative;
-    -webkit-transition: all 0.25s;
-    transition: all 0.25s;
+  background-attachment: local;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 113% auto;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
+  height: 65vh;
+  margin-bottom: 4.5rem;
+  position: relative;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
 }
 
 @media only screen and (min-width: 48em) {
-    .testimonial {
-        background-size: 100%;
-        height: 61vh;
-        margin: 0 auto;
-        margin-bottom: 4.5rem;
-        width: 85%;
-    }
+  .testimonial {
+    background-size: 100%;
+    height: 61vh;
+    margin: 0 auto;
+    margin-bottom: 4.5rem;
+    width: 85%;
+  }
 }
 
 @media only screen and (min-width: 64em) {
-    .testimonial {
-        height: 70vh;
-        -webkit-transform: scale(0.9);
-        transform: scale(0.9);
-    }
+  .testimonial {
+    height: 70vh;
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
 }
 
 @media only screen and (min-width: 85.375em) {
-    .testimonial {
-        height: 95vh;
-        -webkit-transform: scale(0.85);
-        transform: scale(0.85);
-    }
+  .testimonial {
+    height: 95vh;
+    -webkit-transform: scale(0.85);
+    transform: scale(0.85);
+  }
 }
 
 @media only screen and (min-width: 120em) {
-    .testimonial {
-        height: 98vh;
-    }
+  .testimonial {
+    height: 98vh;
+  }
 }
 
 .testimonial-container {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 @media only screen and (min-width: 48em) {
-    .testimonial-container {
-        padding: 1.5rem 5rem 1.5rem 5rem;
-    }
+  .testimonial-container {
+    padding: 1.5rem 5rem 1.5rem 5rem;
+  }
 }
 
 @media only screen and (min-width: 48em) {
-    .testimonial-container {
-        padding: 1.5rem 4rem 1.5rem 4rem;
-    }
+  .testimonial-container {
+    padding: 1.5rem 4rem 1.5rem 4rem;
+  }
 }
 
 .testimonial-1 {
-    background-image: linear-gradient(210deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 33%, transparent 33%), url("../img/testimonial-image-woman-in-office.jpg");
-    margin-top: 2rem;
+  background-image: linear-gradient(210deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 33%, transparent 33%), url("../img/testimonial-image-woman-in-office.jpg");
+  margin-top: 2rem;
 }
 
 .testimonial-2 {
-    background-image: linear-gradient(150deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 36%, transparent 36%), url("../img/testimonial-image-man-in-cafe.jpg");
+  background-image: linear-gradient(150deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 36%, transparent 36%), url("../img/testimonial-image-man-in-cafe.jpg");
 }
 
 @media only screen and (min-width: 64em) {
-    .testimonial-2 {
-        margin-top: 2rem;
-        background-image: linear-gradient(150deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 33%, transparent 33%), url("../img/testimonial-image-man-in-cafe.jpg");
-    }
+  .testimonial-2 {
+    margin-top: 2rem;
+    background-image: linear-gradient(150deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 33%, transparent 33%), url("../img/testimonial-image-man-in-cafe.jpg");
+  }
 }
 
 .testimonial-text-box {
-    max-width: 33ch;
-    position: absolute;
-    text-overflow: ellipsis;
-    white-space: wrap;
+  max-width: 33ch;
+  position: absolute;
+  text-overflow: ellipsis;
+  white-space: wrap;
 }
 
 .testimonial-text-box-1 {
-    padding: .25rem 1rem 0 0;
-    right: 0;
-    text-align: right;
-    top: 0;
+  padding: .25rem 1rem 0 0;
+  right: 0;
+  text-align: right;
+  top: 0;
 }
 
 @media only screen and (min-width: 48em) {
-    .testimonial-text-box-1 {
-        padding: 0.25rem 1.25rem 0 0;
-    }
+  .testimonial-text-box-1 {
+    padding: 0.25rem 1.25rem 0 0;
+  }
 }
 
 @media only screen and (min-width: 85.375em) {
-    .testimonial-text-box-1 {
-        padding: 1.5rem 2.5rem 0 0;
-    }
+  .testimonial-text-box-1 {
+    padding: 1.5rem 2.5rem 0 0;
+  }
 }
 
 .testimonial-text-box-2 {
-    max-width: 35ch;
-    left: 0;
-    padding: .25rem 0 0 1rem;
-    text-align: left;
-    top: 0;
+  max-width: 35ch;
+  left: 0;
+  padding: .25rem 0 0 1rem;
+  text-align: left;
+  top: 0;
 }
 
 @media only screen and (min-width: 48em) {
-    .testimonial-text-box-2 {
-        padding: 0.25rem 0 0 1.25rem;
-    }
+  .testimonial-text-box-2 {
+    padding: 0.25rem 0 0 1.25rem;
+  }
 }
 
 @media only screen and (min-width: 85.375em) {
-    .testimonial-text-box-2 {
-        padding: 1.5rem 0 0 2.5rem;
-    }
+  .testimonial-text-box-2 {
+    padding: 1.5rem 0 0 2.5rem;
+  }
 }
 
 @media only screen and (min-width: 48em) {
-    .testimonial-text-box {
-        max-width: 40ch;
-    }
+  .testimonial-text-box {
+    max-width: 40ch;
+  }
 }
 
 @media only screen and (min-width: 120em) {
-    .testimonial-text-box {
-        max-width: 55ch;
-    }
+  .testimonial-text-box {
+    max-width: 55ch;
+  }
 }
 
 @media only screen and (min-width: 240em) {
-    .testimonial-text-box {
-        max-width: 70ch;
-    }
+  .testimonial-text-box {
+    max-width: 70ch;
+  }
 }
 
 .testimonial-header {
-    font-size: 1.1rem;
+  font-size: 1.1rem;
 }
 
 @media only screen and (min-width: 48em) {
-    .testimonial-header {
-        font-size: 1.6rem;
-    }
+  .testimonial-header {
+    font-size: 1.6rem;
+  }
 }
 
 @media only screen and (min-width: 64em) {
-    .testimonial-header {
-        font-size: 1.4rem;
-    }
+  .testimonial-header {
+    font-size: 1.4rem;
+  }
 }
 
 @media only screen and (min-width: 120em) {
-    .testimonial-header {
-        font-size: 1.75rem;
-    }
+  .testimonial-header {
+    font-size: 1.75rem;
+  }
 }
 
 @media only screen and (min-width: 160em) {
-    .testimonial-header {
-        font-size: 2rem;
-    }
+  .testimonial-header {
+    font-size: 2rem;
+  }
 }
 
 @media only screen and (min-width: 240em) {
-    .testimonial-header {
-        font-size: 2.75rem;
-    }
+  .testimonial-header {
+    font-size: 2.75rem;
+  }
 }
 
 .footer {
-    background-color: #333;
-    color: #fff;
-    padding: 5rem 2.5rem;
-    text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 5rem 2.5rem;
+  text-align: center;
 }
 
 .footer-navigation {
-    margin-bottom: 5rem;
+  margin-bottom: 5rem;
 }
 
 .footer-navigation-box {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .footer-list {
-    font-weight: 100;
-    list-style: none;
-    margin-bottom: 0;
+  font-weight: 100;
+  list-style: none;
+  margin-bottom: 0;
 }
 
 .footer-item:not(:last-child) {
-    margin-bottom: .75rem;
+  margin-bottom: .75rem;
 }
 
 .footer-icon {
-    font-size: 2.1rem;
-    margin-right: 1rem;
+  font-size: 2.1rem;
+  margin-right: 1rem;
 }
 
 @media only screen and (min-width: 64em) {
-    .footer-icon {
-        font-size: 1.5rem;
-    }
+  .footer-icon {
+    font-size: 1.5rem;
+  }
 }
 
 @media only screen and (min-width: 160em) {
-    .footer-icon {
-        font-size: 2rem;
-    }
+  .footer-icon {
+    font-size: 2rem;
+  }
 }
 
 .footer-icon-link:link,
 .footer-icon-link:visited {
-    color: #d1d1d1;
-    -webkit-transition: all 0.25s;
-    transition: all 0.25s;
+  color: #d1d1d1;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
 }
 
 .footer-icon-link:hover,
 .footer-icon-link:active .footer-icon-link:focus {
-    color: #75cac3;
-    text-decoration: none;
+  color: #75cac3;
+  text-decoration: none;
 }
 
 .footer-link:link,
 .footer-link:visited {
-    color: #999;
-    font-size: 2.1rem;
-    -webkit-transition: all 0.25s;
-    transition: all 0.25s;
+  color: #999;
+  font-size: 2.1rem;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
 }
 
 @media only screen and (min-width: 64em) {
 
-    .footer-link:link,
-    .footer-link:visited {
-        font-size: 1.5rem;
-    }
+  .footer-link:link,
+  .footer-link:visited {
+    font-size: 1.5rem;
+  }
 }
 
 @media only screen and (min-width: 160em) {
 
-    .footer-link:link,
-    .footer-link:visited {
-        font-size: 2rem;
-    }
+  .footer-link:link,
+  .footer-link:visited {
+    font-size: 2rem;
+  }
 }
 
 .footer-link:hover,
 .footer-link:active,
 .footer-link:focus {
-    color: #eee;
-    text-decoration: none;
+  color: #eee;
+  text-decoration: none;
 }
 
 .footer-name-link:link,
 .footer-name-link:visited {
-    color: #d1d1d1;
-    font-size: 1.5rem;
-    -webkit-transition: all 0.25s;
-    transition: all 0.25s;
+  color: #d1d1d1;
+  font-size: 1.5rem;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
 }
 
 @media only screen and (min-width: 85.375em) {
 
-    .footer-name-link:link,
-    .footer-name-link:visited {
-        font-size: 1rem;
-    }
+  .footer-name-link:link,
+  .footer-name-link:visited {
+    font-size: 1rem;
+  }
 }
 
 @media only screen and (min-width: 160em) {
 
-    .footer-name-link:link,
-    .footer-name-link:visited {
-        font-size: 1.25rem;
-    }
+  .footer-name-link:link,
+  .footer-name-link:visited {
+    font-size: 1.25rem;
+  }
 }
 
 .footer-name-link:hover,
 .footer-name-link:active,
 .footer-name-link:focus {
-    color: #75cac3;
-    text-decoration: none;
+  color: #75cac3;
+  text-decoration: none;
 }
 
 .header {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6))), url("../img/ferrari-parked.jpg");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6)), url("../img/ferrari-parked.jpg");
-    background-position: top;
-    background-size: cover;
-    color: #fff;
-    height: 100vh;
-    position: relative;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6))), url("../img/ferrari-parked.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6)), url("../img/ferrari-parked.jpg");
+  background-position: top;
+  background-size: cover;
+  color: #fff;
+  height: 100vh;
+  position: relative;
 }
 
 .header-text-box {
-    left: 50%;
-    position: absolute;
-    text-align: center;
-    top: 70%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    width: 90%;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  top: 70%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 90%;
 }
 
 @media only screen and (min-width: 48em) {
-    .header-text-box {
-        top: 50%;
-    }
+  .header-text-box {
+    top: 50%;
+  }
 }
 
 .nav {
-    color: #fff;
-    position: relative;
+  color: #fff;
+  position: relative;
 }
 
 @media only screen and (min-width: 48em) {
-    .nav {
-        padding: 0 2rem;
-    }
+  .nav {
+    padding: 0 2rem;
+  }
 }
 
 @media only screen and (min-width: 64em) {
-    .nav {
-        padding: 0 2.5rem;
-    }
+  .nav {
+    padding: 0 2.5rem;
+  }
 }
 
 @media only screen and (min-width: 85.375em) {
-    .nav {
-        padding: 0 4.5rem;
-    }
+  .nav {
+    padding: 0 4.5rem;
+  }
 }
 
 @media only screen and (min-width: 120em) {
-    .nav {
-        padding: 1rem 7rem;
-    }
+  .nav {
+    padding: 1rem 7rem;
+  }
 }
 
 @media only screen and (min-width: 160em) {
-    .nav {
-        padding: 2rem 8rem;
-    }
+  .nav {
+    padding: 2rem 8rem;
+  }
 }
 
 .nav-list {
-    padding-top: 1.1rem;
+  padding-top: 1.1rem;
 }
 
 @media only screen and (min-width: 120em) {
-    .nav-list {
-        padding-top: 1.35rem;
-    }
+  .nav-list {
+    padding-top: 1.35rem;
+  }
 }
 
 .nav-brand {
-    font-family: "Lobster", cursive;
-    font-size: 4rem;
-    font-weight: 100;
+  font-family: "Lobster", cursive;
+  font-size: 4rem;
+  font-weight: 100;
 }
 
 @media only screen and (min-width: 48em) {
-    .nav-brand {
-        font-size: 5rem;
-    }
+  .nav-brand {
+    font-size: 5rem;
+  }
 }
 
 @media only screen and (min-width: 64em) {
-    .nav-brand {
-        font-size: 4.35rem;
-    }
+  .nav-brand {
+    font-size: 4.35rem;
+  }
 }
 
 @media only screen and (min-width: 85.375em) {
-    .nav-brand {
-        font-size: 5rem;
-    }
+  .nav-brand {
+    font-size: 5rem;
+  }
 }
 
 @media only screen and (min-width: 120em) {
-    .nav-brand {
-        font-size: 6rem;
-    }
+  .nav-brand {
+    font-size: 6rem;
+  }
 }
 
 @media only screen and (min-width: 160em) {
-    .nav-brand {
-        font-size: 7rem;
-    }
+  .nav-brand {
+    font-size: 7rem;
+  }
 }
 
 .nav-option:link,
 .nav-option:visited {
-    color: #eee !important;
-    font-size: 2rem;
-    font-weight: 100;
-    -webkit-transition: all 0.25s;
-    transition: all 0.25s;
+  color: #eee !important;
+  font-size: 2rem;
+  font-weight: 100;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
 }
 
 @media only screen and (min-width: 64em) {
 
-    .nav-option:link,
-    .nav-option:visited {
-        font-size: 1.85rem;
-        margin-left: .5rem;
-    }
+  .nav-option:link,
+  .nav-option:visited {
+    font-size: 1.85rem;
+    margin-left: .5rem;
+  }
 }
 
 @media only screen and (min-width: 85.375em) {
 
-    .nav-option:link,
-    .nav-option:visited {
-        margin-left: .75rem;
-    }
+  .nav-option:link,
+  .nav-option:visited {
+    margin-left: .75rem;
+  }
 }
 
 @media only screen and (min-width: 120em) {
 
-    .nav-option:link,
-    .nav-option:visited {
-        font-size: 2.4rem;
-        margin-left: 1rem;
-    }
+  .nav-option:link,
+  .nav-option:visited {
+    font-size: 2.4rem;
+    margin-left: 1rem;
+  }
 }
 
 @media only screen and (min-width: 160em) {
 
-    .nav-option:link,
-    .nav-option:visited {
-        font-size: 2.8rem;
-        margin-left: 1.25rem;
-    }
+  .nav-option:link,
+  .nav-option:visited {
+    font-size: 2.8rem;
+    margin-left: 1.25rem;
+  }
 }
 
 @media only screen and (min-width: 240em) {
 
-    .nav-option:link,
-    .nav-option:visited {
-        font-size: 3.2rem;
-        margin-left: 1.5rem;
-    }
+  .nav-option:link,
+  .nav-option:visited {
+    font-size: 3.2rem;
+    margin-left: 1.5rem;
+  }
 }
 
 .nav-option:hover,
 .nav-option:active,
 .nav-option:focus {
-    color: #75cac3 !important;
+  color: #75cac3 !important;
 }
 
 .section-features {
-    background-color: #fff;
-    padding: 5rem 2.5rem;
-    text-align: center;
+  background-color: #fff;
+  padding: 5rem 2.5rem;
+  text-align: center;
 }
 
 @media only screen and (min-width: 48em) {
-    .section-features {
-        padding: 5rem;
-    }
+  .section-features {
+    padding: 5rem;
+  }
 }
 
 .section-steps-img {
-    background-attachment: fixed;
-    background-image: url("../img/vancouver-night-aerial-crop.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100%;
-    height: 45vh;
+  background-attachment: fixed;
+  background-image: url("../img/vancouver-night-aerial-crop.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+  height: 45vh;
 }
 
 .section-steps-content {
-    padding: 5rem 2.5rem;
-    text-align: center;
+  padding: 5rem 2.5rem;
+  text-align: center;
 }
 
 @media only screen and (min-width: 85.375em) {
-    .section-steps-content {
-        padding: 5rem 4rem;
-    }
+  .section-steps-content {
+    padding: 5rem 4rem;
+  }
 }
 
 .section-pricing {
-    background-image: -webkit-gradient(linear, left top, right bottom, from(#75cac3), to(#2a6171));
-    background-image: linear-gradient(to right bottom, #75cac3, #2a6171);
-    padding: 5rem 2.5rem;
-    text-align: center;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#75cac3), to(#2a6171));
+  background-image: linear-gradient(to right bottom, #75cac3, #2a6171);
+  padding: 5rem 2.5rem;
+  text-align: center;
 }
 
 .section-pricing-header {
-    color: #fff;
+  color: #fff;
 }
 
 @media only screen and (min-width: 48em) {
-    .section-pricing {
-        padding: 5rem 2rem 2rem 2rem;
-    }
+  .section-pricing {
+    padding: 5rem 2rem 2rem 2rem;
+  }
 }
 
 @media only screen and (min-width: 64em) {
-    .section-pricing {
-        padding: 5rem 4rem 2rem 4rem;
-    }
+  .section-pricing {
+    padding: 5rem 4rem 2rem 4rem;
+  }
 }
 
 @media only screen and (min-width: 85.375em) {
-    .section-pricing {
-        padding: 5rem 8rem 2rem 8rem;
-    }
+  .section-pricing {
+    padding: 5rem 8rem 2rem 8rem;
+  }
 }
 
 .section-testimonials {
-    background-color: #fff;
-    padding: 5rem 2.5rem;
-    position: relative;
-    text-align: center;
+  background-color: #fff;
+  padding: 5rem 2.5rem;
+  position: relative;
+  text-align: center;
 }
 
 .section-contact {
-    background-image: -webkit-gradient(linear, left top, right bottom, from(#75cac3), to(#2a6171));
-    background-image: linear-gradient(to right bottom, #75cac3, #2a6171);
-    padding: 5rem 2.5rem;
-    text-align: center;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#75cac3), to(#2a6171));
+  background-image: linear-gradient(to right bottom, #75cac3, #2a6171);
+  padding: 5rem 2.5rem;
+  text-align: center;
 }
 
 /*# sourceMappingURL=main.css.map */

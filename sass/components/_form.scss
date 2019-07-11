@@ -7,7 +7,7 @@
     }
 
     &-group-button {
-        text-align: center;
+        text-align: $text-center;
     }
 
     &-container {
@@ -31,7 +31,7 @@
         }
 
         @include respond(desktop-lg) {
-            font-size: 1.5rem;
+            font-size: $text-size-extra-small;
         }
 
         @include respond(desktop-4k) {
@@ -39,9 +39,7 @@
         }
 
         &:focus {
-            border-bottom: 3px solid $color-primary;
-            box-shadow: 0 1rem 2rem rgba($color-black, .1);
-            outline: none;
+            @include inputFocus;
 
             &:invalid {
                 border-bottom: 3px solid $color-secondary-dark;
@@ -64,9 +62,7 @@
         width: 100%;
 
         &:focus {
-            border: 3px solid $color-primary;
-            box-shadow: 0 1rem 2rem rgba($color-black, .1);
-            outline: none;
+            @include inputFocus;
         }
 
     }
@@ -99,7 +95,7 @@
         font-size: $text-size-small;
         font-weight: $font-weight-lighter;
         padding: 1rem 2.5rem;
-        text-align: center;
+        text-align: $text-center;
         transition: $standard-transition;
 
         &:hover {

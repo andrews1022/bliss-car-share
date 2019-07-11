@@ -1,3 +1,4 @@
+// Pricing Card Styles
 .pricing-card {
     background-color: transparent;
     box-shadow: $box-shadow-light;
@@ -9,10 +10,12 @@
     transition: $standard-transition;
     width: $wrapper-wide;
 
+    // Hover Effect
     &:hover {
         transform: scale(0.93) translateY(-3px);
     }
 
+    // Media Queries
     @include respond(tab-port) {
         width: 70%;
     }
@@ -22,6 +25,7 @@
         margin-bottom: 2rem;
     }
 
+    // Price Card Image Styling
     &-image {
         position: relative;
 
@@ -37,6 +41,7 @@
         }
     }
 
+    // Price Card Box Styling
     &-content {
         background-color: white;
         color: $color-primary-dark;
@@ -48,7 +53,7 @@
         font-weight: $font-weight-light;
         padding-top: 1.5rem;
         margin-bottom: $margin-bottom-extra-small;
-        text-transform: uppercase;
+        text-transform: $text-uppercase;
 
         @include respond(tab-land) {
             font-size: 3.25rem
@@ -68,6 +73,7 @@
         }
     }
 
+    // Pricing Card Features List Styling
     &-list {
         font-weight: $font-weight-lighter;
         list-style: none;
@@ -90,9 +96,10 @@
         }
     }
 
+    // Per Month Span Styling
     &-span {
         @include respond(laptop) {
-            font-size: 1.5rem;
+            font-size: $text-size-extra-small;
         }
 
         @include respond(desktop) {
@@ -100,7 +107,7 @@
         }
 
         @include respond(desktop-lg) {
-            font-size: 2rem;
+            font-size: $text-size-small;
         }
 
         @include respond(desktop-4k) {

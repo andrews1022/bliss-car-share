@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+// Border Box Reset 1/2
 *,
 *:before,
 *:after,
@@ -17,7 +18,10 @@
 // desktop-lg
 // desktop-4k
 
+
 html {
+
+    // Border Box Reset 2/2
     box-sizing: border-box;
     font-size: 62.5%;   // Equivalent to 10px  
     
@@ -59,12 +63,9 @@ html {
 }
 
 img {
-    display: block;
-    height: auto;
-    max-width: 100%;
+    @include responsiveImages;
 }
 
 ::selection {
-    background-color: $color-primary;
-    color: $color-white;
+    @include customTextSelection;
 }

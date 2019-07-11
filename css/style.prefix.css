@@ -19,7 +19,6 @@ min-width 3840px == desktop-4k
 
 1em = 16px (16px is default browser font-size)
 */
-
 *,
 *:before,
 *:after,
@@ -301,7 +300,7 @@ body {
 
 @media only screen and (min-width: 240em) {
   .paragraph {
-    font-size: 1.7rem;
+    font-size: 1.75rem;
   }
 }
 
@@ -599,7 +598,7 @@ body {
 }
 
 .form-ta:focus {
-  border: 3px solid #75cac3;
+  border-bottom: 3px solid #75cac3;
   -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
   outline: none;

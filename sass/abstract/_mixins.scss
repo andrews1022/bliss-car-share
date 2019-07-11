@@ -24,6 +24,27 @@
     display: inline-block;
 }
 
+// Responsive Images Reset
+@mixin responsiveImages {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+// Custom text selection highlight
+@mixin customTextSelection {
+    background-color: $color-primary;
+    color: $color-white;
+}
+
+// Input Focus Styling
+@mixin inputFocus {
+    border-bottom: 3px solid $color-primary;
+    box-shadow: 0 1rem 2rem rgba($color-black, .1);
+    outline: none;
+}
+
+
 
 
 // MEDIA QUERY MANAGER

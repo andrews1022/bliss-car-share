@@ -6,11 +6,11 @@
         margin: $margin-top-medium;
 
         @include respond(desktop) {
-            margin-bottom: 3rem;
+            margin-bottom: $margin-bottom-medium;
         }
 
         @include respond(desktop-4k) {
-            margin-bottom: 5rem;
+            margin-bottom: $margin-bottom-large;
         }
     }
    

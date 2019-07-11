@@ -36,7 +36,7 @@
         font-weight: $font-weight-light;
 
         @include respond(tab-port) {
-            font-size: 5rem;
+            font-size: $text-size-inbetween-ml;
         }
 
         @include respond(tab-land) {
@@ -44,15 +44,15 @@
         }
 
         @include respond(laptop) {
-            font-size: 5rem;
+            font-size: $text-size-inbetween-ml;
         }
 
         @include respond(desktop) {
-            font-size: 6rem;
+            font-size: $text-size-large;
         }
 
         @include respond(desktop-lg) {
-            font-size: 7rem;
+            font-size: $text-size-inbetween-lxl;
         }
     }
 

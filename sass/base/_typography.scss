@@ -1,23 +1,25 @@
 // font-family: 'Lobster', cursive;
 // font-family: 'Roboto', sans-serif;
 
+// Overall Text Settings
 body {
     color: $color-dark-grey;
     font-family: $text-main;
     font-weight: $font-weight-normal;
 }
 
+// Primary Heading Styles
 .heading-primary {
     font-size: $text-size-inbetween-sm;
     font-weight: $font-weight-light;
     margin-bottom: $margin-bottom-small;
 
     @include respond(tab-port) {
-        font-size: 5rem;
+        font-size: $text-size-inbetween-ml;
     }
 
     @include respond(tab-land) {
-        font-size: 4rem;
+        font-size: $text-size-medium;
     }
 
     @include respond(laptop) {
@@ -33,20 +35,21 @@ body {
     }
 }
 
+// Secondary Heading Styles
 .heading-secondary {
     @include textGradient;
 
     font-size: $text-size-medium;
     font-weight: $font-weight-light;
     margin-bottom: $margin-bottom-extra-small;
-    text-transform: uppercase;
+    text-transform: $text-uppercase;
 
     @include respond(tab-port) {
-        font-size: 5rem;
+        font-size: $text-size-inbetween-ml;
     }
 
     @include respond(desktop-lg) {
-        font-size: 6rem;
+        font-size: $text-size-large;
     }
 
     @include respond(desktop-4k) {
@@ -57,12 +60,12 @@ body {
         color: $color-white;
 
         @include respond(tab-port) {
-            font-size: 5rem;
-            margin-bottom: 3rem;
+            font-size: $text-size-inbetween-ml;
+            margin-bottom: $margin-bottom-medium;
         }
 
         @include respond(desktop-lg) {
-            font-size: 6rem;
+            font-size: $text-size-large;
         }
 
         @include respond(desktop-4k) {
@@ -71,6 +74,7 @@ body {
     }
 }
 
+// Tertiary Heading Styles
 .heading-tertiary {
     font-size: $text-size-inbetween-sm;
     font-weight: $font-weight-light;
@@ -81,16 +85,17 @@ body {
     }
 
     @include respond(desktop-4k) {
-        font-size: 3rem;
+        font-size: $text-size-inbetween-sm;
     }
 
+    // Testimonail Section Tertiary Heading Styles
     &-testimonial {
         @include respond(tab-port) {
-            font-size: 5rem;
+            font-size: $text-size-inbetween-ml;
         }
 
         @include respond(tab-land) {
-            font-size: 4rem;
+            font-size: $text-size-medium;
         }
 
         @include respond(desktop) {
@@ -102,30 +107,33 @@ body {
         }
 
         @include respond(desktop-4k) {
-            font-size: 8rem;
+            font-size: $text-size-huge;
         }
     }
 
+    // Contact Section Tertiary Heading Styles
     &-contact {
         font-size: $text-size-medium;
         text-align: $text-center;
     }
 
+    // Footer Tertiary Heading Styles
     &-footer {
         color: $color-light-grey-4;
         font-size: 3.25rem;
-        text-align: center;
+        text-align: $text-center;
 
         @include respond(tab-land) {
             font-size: 2.25rem;
         }
 
         @include respond(desktop-lg) {
-            font-size: 3rem;
+            font-size: $text-size-inbetween-sm;
         }
     }
 }
 
+// Quaternary Heading Styles
 .heading-quaternary {
     @include textGradient;
 
@@ -140,20 +148,21 @@ body {
     }
 }
 
+// Paragraph Styles
 .paragraph {
     font-size: $text-size-extra-small;
     font-weight: $font-weight-lighter;
 
     @include respond(tab-land) {
-        font-size: 1.25rem;
+        font-size: $text-size-tiny;
     }
 
     @include respond(desktop-lg) {
-        font-size: 1.5rem;
+        font-size: $text-size-extra-small;
     }
 
     @include respond(desktop-4k) {
-        font-size: 1.7rem;
+        font-size: 1.75rem;
     }
 
     &-footer {
@@ -164,7 +173,7 @@ body {
         }
 
         @include respond(desktop-lg) {
-            font-size: 1.25rem;
+            font-size: $text-size-tiny;
         }
     }
 }

@@ -1,3 +1,4 @@
+// Button Styles
 .button {
     border-radius: $border-radius-medium;
     box-shadow: $box-shadow-medium;
@@ -10,7 +11,7 @@
     transition: $standard-transition;
 
     @include respond(tab-port){
-        font-size: 2rem;
+        font-size: $text-size-small;
         padding: 1rem 3rem; 
     }
 
@@ -19,7 +20,7 @@
     }
 
     @include respond(desktop) {
-        font-size: 2rem;
+        font-size: $text-size-small;
     }
     
     @include respond(desktop-lg) {
@@ -30,6 +31,7 @@
         font-size: 3.5rem;
     }
     
+    // Solid Fill Button Styles
     &-fill:link,
     &-fill:visited {
         background-color: $color-primary;
@@ -45,6 +47,7 @@
         transform: translateY(-3px) scale(1.03);
     }
 
+    // Outline/No Fill Button Styles
     &-outline:link,
     &-outline:visited {
         border: 2px solid $color-primary;
@@ -61,6 +64,7 @@
     }
 }
 
+// Minimal Button Styles (How it all works section)
 .button-2 {
     transition: $standard-transition;
 
@@ -69,12 +73,12 @@
         border-bottom: 2px solid $color-primary;
         border-radius: $border-radius-medium;
         color: $color-dark-grey;
-        font-size: 1.25rem;
+        font-size: $text-size-tiny;
         margin: 1rem;
         padding: .75rem 3rem;
 
         @include respond(tab-port) {
-            font-size: 1.5rem;
+            font-size: $text-size-extra-small;
         }
 
         @include respond(desktop-lg) {
@@ -82,7 +86,7 @@
         }
 
         @include respond(desktop-4k) {
-            font-size: 2rem;
+            font-size: $text-size-small;
         }
     }
 
