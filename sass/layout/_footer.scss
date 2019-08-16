@@ -5,7 +5,7 @@
     text-align: $text-center;
 
     &-navigation {
-        margin-bottom: $margin-bottom-large;
+        margin-bottom: $size-medium-3;
     }
 
     &-navigation-box {
@@ -19,19 +19,19 @@
     }
 
     &-item:not(:last-child) {
-        margin-bottom: .75rem;
+        margin-bottom: $size-x-tiny-3;
     }
 
     &-icon {
-        font-size: 2.1rem;
-        margin-right: 1rem;
+        font-size: $size-x-small-1;
+        margin-right: $size-tiny-1;
 
         @include respond(tab-land) {
-            font-size: $text-size-extra-small;
+            font-size: $size-tiny-2;
         }
 
         @include respond(desktop-lg) {
-            font-size: $text-size-small;
+            font-size: $size-tiny-4;
         }
 
         &-link:link,
@@ -50,15 +50,15 @@
     &-link:link,
     &-link:visited {
         color: $color-medium-grey-1;
-        font-size: 2.1rem;
+        font-size: $size-x-small-1;
         transition: $standard-transition;
 
         @include respond(tab-land) {
-            font-size: $text-size-extra-small;
+            font-size: $size-tiny-3;
         }
 
         @include respond(desktop-lg) {
-            font-size: $text-size-small;
+            font-size: $size-tiny-4;
         }
     }
 
@@ -72,16 +72,8 @@
     &-name-link:link,
     &-name-link:visited {
         color: $color-light-grey-4;
-        font-size: $text-size-extra-small;
+        font-size: $size-tiny-2;
         transition: $standard-transition;  
-
-        @include respond(laptop) {
-            font-size: 1rem;
-        }
-
-        @include respond(desktop-lg) {
-            font-size: $text-size-tiny;
-        }
     }
 
     &-name-link:hover,

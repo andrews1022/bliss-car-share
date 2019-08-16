@@ -36,41 +36,78 @@ $text-center: center;
 $text-uppercase: uppercase;
 $text-lowercase: lowercase;
 
+$text-size-xtiny: 1rem;
 $text-size-tiny: 1.25rem;
 $text-size-extra-small: 1.5rem;
 $text-size-small: 2rem;
-$text-size-inbetween-sm: 3rem;
-$text-size-medium: 4rem;
-$text-size-inbetween-ml: 5rem;
-$text-size-large: 6rem;
-$text-size-inbetween-lxl: 7rem;
-$text-size-huge: 8rem;
+
+$size-x-tiny-1: 0.25rem;
+$size-x-tiny-2: 0.5rem;
+$size-x-tiny-3: 0.75rem;
+
+$size-tiny-1: 1rem;
+$size-tiny-2: 1.25rem;
+$size-tiny-3: 1.5rem;
+$size-tiny-4: 1.75rem;
+
+$size-x-small-1: 2rem;
+$size-x-small-2: 2.25rem;
+$size-x-small-3: 2.5rem;
+$size-x-small-4: 2.75rem;
+
+$size-small-1: 3rem;
+$size-small-2: 3.25rem;
+$size-small-3: 3.5rem;
+$size-small-4: 3.75rem;
+
+$size-medium-1: 4rem;
+$size-medium-2: 4.25rem;
+$size-medium-3: 4.5rem;
+$size-medium-4: 4.75rem;
+
+$size-large-1: 5rem;
+$size-large-2: 5.25rem;
+$size-large-3: 5.5rem;
+$size-large-4: 5.75rem;
+
+$size-x-large-1: 6rem;
+$size-x-large-2: 6.25rem;
+$size-x-large-3: 6.5rem;
+$size-x-large-4: 6.75rem;
+
+$size-xx-large-1: 7rem;
+$size-xx-large-2: 7.25rem;
+$size-xx-large-3: 7.5rem;
+$size-xx-large-4: 7.75rem;
+
+$size-huge-1: 8rem;
+$size-huge-2: 8.25rem;
+$size-huge-3: 8.5rem;
+$size-huge-4: 8.75rem;
+
+$size-x-huge-1: 9rem;
+$size-x-huge-2: 9.25rem;
+$size-x-huge-3: 9.5rem;
+$size-x-huge-4: 9.75rem;
+
+$size-massive-1: 10rem;
+$size-massive-2: 11rem;
+$size-massive-3: 12rem;
+$size-massive-4: 13rem;
+$size-massive-5: 14rem;
+$size-massive-6: 15rem;
 
 $font-weight-light: 100;
 $font-weight-lighter: 300;
 $font-weight-normal: 400;
 $font-weight-bold: 700;
-$font-weight-bold: 900;
+$font-weight-black: 900;
 
 // WRAPPER
 $wrapper: 75%;
 $wrapper-wide: 90%;
 
-// MARGIN BOTTOM
-$margin-bottom-extra-small: 1rem;
-$margin-bottom-small: 1.5rem;
-$margin-bottom-inbetween-sm: 2.5rem;
-$margin-bottom-medium: 3rem;
-$margin-bottom-large: 5rem;
-$margin-bottom-inbetween-lh: 6rem;
-$margin-bottom-huge: 7rem;
 
-// MARGIN TOP
-$margin-top-extra-small: 1rem;
-$margin-top-small: 1.5rem;
-$margin-top-medium: 3rem;
-$margin-top-large: 5rem;
-$margin-top-huge: 7rem;
 
 // PADDING
 $section-padding: 5rem 2.5rem;
@@ -80,6 +117,7 @@ $price-card-padding: 2rem;
 $standard-transition: all 250ms;
 
 // DROP SHADOW
+$box-shadow-xlight: 0 1rem 3rem rgba($color-black, .1);
 $box-shadow-light: 0 1rem 3rem rgba($color-black, .2);
 $box-shadow-medium: 0 1rem 3rem rgba($color-black, .5);
 $box-shadow-dark: 0 1rem 3rem rgba($color-black, 1);

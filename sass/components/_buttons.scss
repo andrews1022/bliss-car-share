@@ -4,31 +4,27 @@
     box-shadow: $box-shadow-medium;
     color: $color-white;
     display: inline-block;
-    font-size: $text-size-extra-small;
+    font-size: $size-tiny-2;
     font-weight: $font-weight-lighter;
-    margin: 1rem;
-    padding: 1.25rem 3.5rem;
+    margin: $size-tiny-1;
+    padding: $size-tiny-2 $size-small-3;
     transition: $standard-transition;
 
     @include respond(tab-port){
-        font-size: $text-size-small;
-        padding: 1rem 3rem; 
+        font-size: $size-tiny-3;
+        padding: $size-tiny-1 $size-small-1; 
     }
 
     @include respond(tab-land){
-        font-size: 1.75rem;
+        font-size: $size-tiny-2;
     }
 
     @include respond(desktop) {
-        font-size: $text-size-small;
-    }
-    
-    @include respond(desktop-lg) {
-        font-size: 2.5rem;
+        font-size: $size-tiny-3;
     }
 
     @include respond(desktop-lg) {
-        font-size: 3.5rem;
+        font-size: $size-x-small-2;
     }
     
     // Solid Fill Button Styles
@@ -62,6 +58,18 @@
         text-decoration: none;
         transform: translateY(-3px) scale(1.03);
     }
+
+    &-fill-pricing:link,
+    &-fill-pricing:visited {
+        box-shadow: none;
+    }
+
+    &-fill-pricing:hover,
+    &-fill-pricing:active,
+    &-fill-pricing:focus {
+        box-shadow: $box-shadow-xlight;
+        transform: translateY(-3px);
+    }
 }
 
 // Minimal Button Styles (How it all works section)
@@ -73,20 +81,20 @@
         border-bottom: 2px solid $color-primary;
         border-radius: $border-radius-medium;
         color: $color-dark-grey;
-        font-size: $text-size-tiny;
-        margin: 1rem;
-        padding: .75rem 3rem;
+        font-size: $size-tiny-1;
+        margin: $text-size-xtiny;
+        padding: $size-x-tiny-3 $size-x-small-3;
 
         @include respond(tab-port) {
-            font-size: $text-size-extra-small;
+            font-size: $size-tiny-2;
         }
 
         @include respond(desktop-lg) {
-            font-size: 1.75rem;
+            font-size: $size-tiny-4;
         }
 
         @include respond(desktop-4k) {
-            font-size: $text-size-small;
+            font-size: $size-x-small-1;
         }
     }
 

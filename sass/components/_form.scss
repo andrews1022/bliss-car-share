@@ -1,9 +1,9 @@
 .form {
-    margin-top: 2rem;
+    margin-top: $size-x-small-1;
     text-align: left;
 
     &-group:not(:last-child) {
-        margin-bottom: $margin-bottom-inbetween-sm;
+        margin-bottom: $size-x-small-3;
     }
 
     &-group-button {
@@ -11,7 +11,7 @@
     }
 
     &-container {
-        padding: 1rem 2.5rem;
+        padding: $size-tiny-1 $size-x-small-3;
     }
 
     &-input {
@@ -21,21 +21,21 @@
         color: $color-dark-grey;
         display: block;
         font-family: 'Roboto', sans-serif;
-        font-size: 1.15rem;
-        padding: .75rem 1rem;
+        font-size: $size-tiny-1;
+        padding: $size-x-tiny-3 $size-tiny-1;
         transition: $standard-transition;
         width: 100%;
 
         @include respond(desktop) {
-            font-size: 1.25rem;
+            font-size: $size-tiny-2;
         }
 
         @include respond(desktop-lg) {
-            font-size: $text-size-extra-small;
+            font-size: $size-tiny-3;
         }
 
         @include respond(desktop-4k) {
-            font-size: 1.75rem;
+            font-size: $size-tiny-4;
         }
 
         &:focus {
@@ -45,8 +45,6 @@
                 border-bottom: 3px solid $color-secondary-dark;
             }
         }
-
-
     }
 
     &-ta {
@@ -56,33 +54,32 @@
         color: $color-dark-grey;
         display: block;
         font-family: 'Roboto', sans-serif;
-        font-size: 1.15rem;
-        padding: .75rem 1rem;
+        font-size: $size-tiny-1;
+        padding: $size-x-tiny-3 $size-tiny-1;
         transition: $standard-transition;
         width: 100%;
 
         &:focus {
             @include inputFocus;
         }
-
     }
 
     &-label {
         display: block;
         color: $color-dark-grey;
-        font-size: $text-size-small;
+        font-size: $size-tiny-4;
         font-weight: $font-weight-lighter;
 
         @include respond(desktop) {
-            font-size: 2.25rem;
+            font-size: $size-x-small-1;
         }
 
         @include respond(desktop-lg) {
-            font-size: 2.5rem;
+            font-size: $size-x-small-2;
         }
 
         @include respond(desktop-4k) {
-            font-size: 2.75rem;
+            font-size: $size-x-small-3;
         }
     }
 
@@ -92,9 +89,9 @@
         border-radius: $border-radius-medium;
         box-shadow: $box-shadow-light;
         color: $color-white;
-        font-size: $text-size-small;
+        font-size: $size-tiny-4;
         font-weight: $font-weight-lighter;
-        padding: 1rem 2.5rem;
+        padding: $size-tiny-1 $size-x-small-3;
         text-align: $text-center;
         transition: $standard-transition;
 

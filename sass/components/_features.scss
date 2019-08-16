@@ -1,14 +1,14 @@
 .features {
 
     &-row {
-        padding: 0 2rem;
+        padding: 0 $size-x-small-1;
     }
 
     &-card {
         border-radius: $border-radius-medium;
         margin: $margin-center;
-        margin-bottom: $margin-bottom-small;
-        padding: 2rem;
+        margin-bottom: $size-tiny-3;
+        padding: $size-x-small-1;
         transition: $standard-transition;
         width: $wrapper;
 
@@ -20,7 +20,7 @@
 
     &-icon {
         color: $color-primary-dark;
-        font-size: $text-size-inbetween-ml;
+        font-size: $size-medium-3;
     }
 
 }

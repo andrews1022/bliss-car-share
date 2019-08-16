@@ -3,48 +3,48 @@
     background-color: $color-light-grey-1;
 
     &-block {
-        margin: $margin-top-medium;
+        margin: $size-small-1;
 
         @include respond(desktop) {
-            margin-bottom: $margin-bottom-medium;
+            margin-bottom: $size-small-1;
         }
 
         @include respond(desktop-4k) {
-            margin-bottom: $margin-bottom-large;
+            margin-bottom: $size-medium-3;
         }
     }
    
     &-block-left{
         @include respond(desktop) {
-            margin-top: 5.5rem;
+            margin-top: $size-large-3;
         }
 
         @include respond(desktop-lg) {
-            margin-top: 9rem;
+            margin-top: $size-x-huge-1;
         }
 
         @include respond(desktop-4k) {
-            margin-top: 15rem;
+            margin-top: $size-massive-6;
         }
     }
 
     &-carousel {
         border-radius: $border-radius-medium;
         box-shadow: $box-shadow-light;
-        margin: 3rem auto;
+        margin: $size-small-1 auto;
         overflow: hidden;
 
         @include respond(tab-port) {
-            margin: 3.5rem auto;
+            margin: $size-small-3 auto;
             width: 85%;
         }
 
         @include respond(tab-land) {
-            margin-top: 4.2rem;
+            margin-top: $size-medium-2;
         }
 
         @include respond(laptop) {
-            margin-top: 3.5rem;
+            margin-top: $size-small-3;
         }
     }
 

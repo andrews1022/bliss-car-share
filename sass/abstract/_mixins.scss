@@ -40,7 +40,7 @@
 // Input Focus Styling
 @mixin inputFocus {
     border-bottom: 3px solid $color-primary;
-    box-shadow: 0 1rem 2rem rgba($color-black, .1);
+    box-shadow: 0 $size-tiny-1 $size-x-small-1 rgba($color-black, .1);
     outline: none;
 }
 

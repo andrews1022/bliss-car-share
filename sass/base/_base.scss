@@ -20,14 +20,16 @@
 
 
 html {
-
     // Border Box Reset 2/2
     box-sizing: border-box;
-    font-size: 62.5%;   // Equivalent to 10px  
-    
+    font-size: 62.5%; // Equivalent to 10px  
+
+    // Smooth Scroll
+    scroll-behavior: smooth;
+
     // min-width 768px
     // 1rem = 11px --> 11/16 = 68.75%
-    @include respond(tab-port) { 
+    @include respond(tab-port) {
         font-size: 68.75%;
     }
 

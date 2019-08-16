@@ -4,16 +4,11 @@
     box-shadow: $box-shadow-light;
     color: $color-white;
     margin: $margin-center;
-    margin-bottom: $margin-bottom-inbetween-lh;
+    margin-bottom: $size-x-large-1;
     padding: 0;
     position: relative;
     transition: $standard-transition;
     width: $wrapper-wide;
-
-    // Hover Effect
-    &:hover {
-        transform: scale(0.93) translateY(-3px);
-    }
 
     // Media Queries
     @include respond(tab-port) {
@@ -22,7 +17,7 @@
 
     @include respond(tab-land) {
         transform: scale(.9);
-        margin-bottom: 2rem;
+        margin-bottom: $text-size-small;
     }
 
     // Price Card Image Styling
@@ -45,31 +40,31 @@
     &-content {
         background-color: white;
         color: $color-primary-dark;
-        padding: 1.5rem 0;
+        padding: $text-size-extra-small 0;
     }
 
     &-membership-header {
-        font-size: $text-size-medium;
+        font-size: $size-small-1;
         font-weight: $font-weight-light;
-        padding-top: 1.5rem;
-        margin-bottom: $margin-bottom-extra-small;
+        padding-top: $size-tiny-3;
+        margin-bottom: $size-tiny-1;
         text-transform: $text-uppercase;
 
         @include respond(tab-land) {
-            font-size: 3.25rem
+            font-size: $size-x-small-3;
         }
 
         @include respond(desktop) {
-            font-size: 4.75rem
+            font-size: $size-small-4;
         }
     }
 
     &-price-header {
-        font-size: $text-size-large * .90;
+        font-size: $size-large-3;
         font-weight: $font-weight-light;
 
         @include respond(desktop-lg) {
-            font-size: 6.5rem;
+            font-size: $size-x-large-3;
         }
     }
 
@@ -77,17 +72,17 @@
     &-list {
         font-weight: $font-weight-lighter;
         list-style: none;
-        margin-top: $margin-top-small;
+        margin-top: $size-tiny-3;
 
         &-item {
-            font-size: $text-size-small;
+            font-size: $size-tiny-4;
 
             @include respond(desktop-lg) {
-                font-size: 2.5rem;
+                font-size: $size-x-small-1;
             }
 
             &:not(:last-child) {
-                margin-bottom: 2rem;
+                margin-bottom: $size-x-small-1;
             }
 
             &-faded {
@@ -99,19 +94,19 @@
     // Per Month Span Styling
     &-span {
         @include respond(laptop) {
-            font-size: $text-size-extra-small;
+            font-size: $size-tiny-2;
         }
 
         @include respond(desktop) {
-            font-size: 1.75rem;
+            font-size: $size-tiny-3;
         }
 
         @include respond(desktop-lg) {
-            font-size: $text-size-small;
+            font-size: $size-tiny-4;
         }
 
         @include respond(desktop-4k) {
-            font-size: 2.25rem;
+            font-size: $size-x-small-1;
         }
     }
 }

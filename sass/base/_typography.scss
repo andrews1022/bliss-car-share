@@ -10,28 +10,28 @@ body {
 
 // Primary Heading Styles
 .heading-primary {
-    font-size: $text-size-inbetween-sm;
+    font-size: $size-x-small-3;
     font-weight: $font-weight-light;
-    margin-bottom: $margin-bottom-small;
+    margin-bottom: $size-tiny-3;
 
     @include respond(tab-port) {
-        font-size: $text-size-inbetween-ml;
+        font-size: $size-medium-1;
     }
 
     @include respond(tab-land) {
-        font-size: $text-size-medium;
+        font-size: $size-small-3;
     }
 
     @include respond(laptop) {
-        font-size: 5.5rem;
+        font-size: $size-large-1;
     }
 
     @include respond(desktop-lg) {
-        font-size: $text-size-inbetween-lxl;
+        font-size: $size-x-large-1;
     }
 
     @include respond(desktop-lg) {
-        font-size: 9rem;
+        font-size: $size-xx-large-1;
     }
 }
 
@@ -39,96 +39,96 @@ body {
 .heading-secondary {
     @include textGradient;
 
-    font-size: $text-size-medium;
+    font-size: $size-x-small-3;
     font-weight: $font-weight-light;
-    margin-bottom: $margin-bottom-extra-small;
+    margin-bottom: $size-tiny-1;
     text-transform: $text-uppercase;
 
     @include respond(tab-port) {
-        font-size: $text-size-inbetween-ml;
+        font-size: $size-medium-3;
     }
 
     @include respond(desktop-lg) {
-        font-size: $text-size-large;
+        font-size: $size-x-large-1;
     }
 
     @include respond(desktop-4k) {
-        font-size: 7.5rem;
+        font-size: $size-xx-large-3;
     }
 
     &-white {
         color: $color-white;
 
         @include respond(tab-port) {
-            font-size: $text-size-inbetween-ml;
-            margin-bottom: $margin-bottom-medium;
+            font-size: $size-medium-3;
+            margin-bottom: $size-x-small-3;
         }
 
         @include respond(desktop-lg) {
-            font-size: $text-size-large;
+            font-size: $size-large-1;
         }
 
         @include respond(desktop-4k) {
-            font-size: 7.5rem;
+            font-size: $size-x-large-1;
         }
     }
 }
 
 // Tertiary Heading Styles
 .heading-tertiary {
-    font-size: $text-size-inbetween-sm;
+    font-size: $size-x-small-3;
     font-weight: $font-weight-light;
-    margin-bottom: $margin-bottom-extra-small;
+    margin-bottom: $size-tiny-1;
 
     @include respond(tab-land) {
-        font-size: 2.5rem;
+        font-size: $size-tiny-3;
     }
 
     @include respond(desktop-4k) {
-        font-size: $text-size-inbetween-sm;
+        font-size: $size-x-small-3;
     }
 
     // Testimonail Section Tertiary Heading Styles
     &-testimonial {
         @include respond(tab-port) {
-            font-size: $text-size-inbetween-ml;
+            font-size: $size-medium-1;
         }
 
         @include respond(tab-land) {
-            font-size: $text-size-medium;
+            font-size: $size-small-1;
         }
 
         @include respond(desktop) {
-            font-size: 5.5rem;
+            font-size: $size-medium-4;
         }
 
         @include respond(desktop-lg) {
-            font-size: 6.75rem;
+            font-size: $size-large-3;
         }
 
         @include respond(desktop-4k) {
-            font-size: $text-size-huge;
+            font-size: $size-x-large-4;
         }
     }
 
     // Contact Section Tertiary Heading Styles
     &-contact {
-        font-size: $text-size-medium;
+        font-size: $size-small-2;
         text-align: $text-center;
     }
 
     // Footer Tertiary Heading Styles
     &-footer {
         color: $color-light-grey-4;
-        font-size: 3.25rem;
+        font-size: $size-x-small-3;
         text-align: $text-center;
 
         @include respond(tab-land) {
-            font-size: 2.25rem;
+            font-size: $size-tiny-3;
         }
 
         @include respond(desktop-lg) {
-            font-size: $text-size-inbetween-sm;
+            font-size: $size-x-small-2;
         }
     }
 }
@@ -137,43 +137,43 @@ body {
 .heading-quaternary {
     @include textGradient;
 
-    font-size: $text-size-extra-small;
+    font-size: $size-tiny-2;
 
     @include respond(tab-port) {
-        font-size: 1.75rem;
+        font-size: $size-tiny-3;
     }
 
     @include respond(desktop-4k) {
-        font-size: 2.5rem;
+        font-size: $size-x-small-1;
     }
 }
 
 // Paragraph Styles
 .paragraph {
-    font-size: $text-size-extra-small;
+    font-size: $size-tiny-2;
     font-weight: $font-weight-lighter;
 
     @include respond(tab-land) {
-        font-size: $text-size-tiny;
+        font-size: $size-tiny-1;
     }
 
     @include respond(desktop-lg) {
-        font-size: $text-size-extra-small;
+        font-size: $size-tiny-2;
     }
 
     @include respond(desktop-4k) {
-        font-size: 1.75rem;
+        font-size: $size-tiny-3;
     }
 
     &-footer {
         color: $color-light-grey-4;
 
         @include respond(laptop) {
-            font-size: 1rem;
+            font-size: $size-tiny-1;
         }
 
         @include respond(desktop-lg) {
-            font-size: $text-size-tiny;
+            font-size: $size-tiny-2
         }
     }
 }
